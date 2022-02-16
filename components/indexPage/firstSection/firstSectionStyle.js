@@ -49,13 +49,12 @@ const useStyles = makeStyles({
     },
 
     '& p': {
-      fontFamily: "'Manrope', sans-serif",
+      fontFamily: 'Syne',
       fontStyle: 'normal',
       fontWeight: '500',
-      fontSize: '16px',
-      lineHeight: '22px',
+      fontSize: '14px',
+      lineHeight: '200%',
       color: '#ffffff',
-      letterSpacing: '-0.02em',
       textTransform: 'none',
     },
   },
