@@ -25,7 +25,7 @@ const useStyles = makeStyles({
 
   leftSectionDesc: {
     marginTop: '24px',
-    fontFamily: 'TT Firs Neue',
+    fontFamily: 'Syne',
     fontStyle: 'normal',
     fontWeight: '400',
     fontSize: '14px',

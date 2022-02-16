@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     marginLeft: 'auto',
     '& ul': {
       '& li': {
-        fontFamily: 'TT Firs Neue',
+        fontFamily: 'Syne',
         fontStyle: 'normal',
         fontWeight: '300',
         fontSize: '14px',
