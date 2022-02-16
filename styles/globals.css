@@ -3,7 +3,7 @@
 html,
 body {
   overflow-x: hidden;
-  background-image: url('https://i.imgur.com/zT6uGH1.jpg');
+  background-image: url('../asset/images//indexBackground.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -23,7 +23,7 @@ a {
 @font-face {
   font-family: 'TT Firs Neue';
   src: local('TT Firs Neue Light'), local('TTFirsNeue-Light'),
-    url('../public/fonts/TTFirsNeue-Light.ttf') format('truetype');
+    url('../asset/fonts/TTFirsNeue-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -31,7 +31,7 @@ a {
 @font-face {
   font-family: 'TT Firs Neue';
   src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
-    url('../public/fonts/TTFirsNeue-Regular.ttf') format('truetype');
+    url('../asset/fonts/TTFirsNeue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,7 +39,7 @@ a {
 @font-face {
   font-family: 'TT Firs Neue';
   src: local('TT Firs Neue Medium'), local('TTFirsNeue-Medium'),
-    url('../public/fonts/TTFirsNeue-Medium.ttf') format('truetype');
+    url('../asset/fonts/TTFirsNeue-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
