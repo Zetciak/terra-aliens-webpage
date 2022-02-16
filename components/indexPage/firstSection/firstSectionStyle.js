@@ -1,9 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-//Images
-import buttonBg from '../../../asset/images/buttonBg.png';
-import buttonBg2 from '../../../asset/images/buttonBg2.png';
-
 const useStyles = makeStyles({
   mainDiv: {
     width: '1280px',
@@ -41,14 +37,14 @@ const useStyles = makeStyles({
     marginTop: '24px',
     minWidth: '140px',
     height: '40px',
-    background: `url(${buttonBg})`,
+    background: 'url(https://i.imgur.com/crWsPpo.png)',
     border: 'transparent',
     borderRadius: '534543px',
     transition: 'background .5s',
     boxShadow: 'none',
 
     '&:hover': {
-      background: `url(${buttonBg2})`,
+      background: 'url(https://i.imgur.com/eQOHeDU.png)',
       boxShadow: 'none',
     },
 

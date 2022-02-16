@@ -3,7 +3,7 @@
 html,
 body {
   overflow-x: hidden;
-  background-image: url('../asset/images//indexBackground.png');
+  background-image: url('../asset/images/indexBackground.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
