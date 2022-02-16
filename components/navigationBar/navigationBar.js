@@ -5,10 +5,10 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
 //Images
-import logo from '../../asset/images/navLogo.svg';
-import rightDiscord from '../../asset/images/rightDiscord.svg';
-import rightInstagram from '../../asset/images/rightInstagram.svg';
-import rightTwitter from '../../asset/images/rightTwitter.svg';
+import logo from '../../public/images/navLogo.svg';
+import rightDiscord from '../../public/images/rightDiscord.svg';
+import rightInstagram from '../../public/images/rightInstagram.svg';
+import rightTwitter from '../../public/images/rightTwitter.svg';
 
 //Icons
 import MenuIcon from '@material-ui/icons/MenuRounded';

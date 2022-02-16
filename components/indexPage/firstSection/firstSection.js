@@ -3,7 +3,7 @@ import { Typography, Button } from '@material-ui/core';
 import Image from 'next/image';
 
 //Images
-import rightImage from '../../../asset/images/firstSectionRightImage.png';
+import rightImage from '../../../public/images/firstSectionRightImage.png';
 
 //CSS
 import useStyles from './firstSectionStyle';
