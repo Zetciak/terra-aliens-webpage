@@ -6,7 +6,7 @@ import Image from 'next/image';
 import rightImage from '../../../public/images/firstSectionRightImage.png';
 
 //CSS
-import useStyles from './FirstSectionStyle';
+import useStyles from './firstSectionStyle';
 
 //Script
 function FirstSection() {

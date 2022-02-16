@@ -4,14 +4,14 @@ import dynamic from 'next/dynamic';
 
 //Components
 const NavigationBar = dynamic(
-  () => import('../components/NavigationBar/NavigationBar'),
+  () => import('../components/navigationBar/navigationBar'),
   { ssr: false }
 );
-import FirstSection from './IndexPage/FirstSection/FirstSection';
-import SocialStripe from './IndexPage/SocialStripe/SocialStripe';
+import FirstSection from '../components/indexPage/firstSection/firstSection';
+import SocialStripe from '../components/indexPage/socialStripe/socialStripe';
 
 //CSS
-import useStyles from './IndexPage/IndexStyle';
+import useStyles from '../components/indexPage/indexStyle';
 
 //Script
 function HomePage() {
