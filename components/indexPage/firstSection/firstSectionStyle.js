@@ -37,14 +37,15 @@ const useStyles = makeStyles({
     marginTop: '24px',
     minWidth: '140px',
     height: '40px',
-    background: 'url(https://i.imgur.com/crWsPpo.png)',
+    background: 'url(http://vibemta.mtasa.eu/terraaliens/images/buttonBg.png)',
     border: 'transparent',
     borderRadius: '534543px',
     transition: 'background .5s',
     boxShadow: 'none',
 
     '&:hover': {
-      background: 'url(https://i.imgur.com/eQOHeDU.png)',
+      background:
+        'url(http://vibemta.mtasa.eu/terraaliens/images/buttonBg2.png)',
       boxShadow: 'none',
     },
 

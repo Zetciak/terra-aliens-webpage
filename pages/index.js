@@ -17,7 +17,7 @@ import useStyles from '../components/indexPage/indexStyle';
 function HomePage() {
   const classes = useStyles();
   return (
-    <>
+    <div>
       <Head>
         <title>Terra Aliens NFT</title>
       </Head>
@@ -25,7 +25,7 @@ function HomePage() {
       <FirstSection />
       <SocialStripe />
       asdasd
-    </>
+    </div>
   );
 }
 
