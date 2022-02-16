@@ -159,7 +159,7 @@ const useStyles = makeStyles({
   //550px
   ['@media (max-width: 550px)']: {
     mainDiv: {
-      marginTop: '-120px',
+      marginTop: '-160px',
     },
   },
 
