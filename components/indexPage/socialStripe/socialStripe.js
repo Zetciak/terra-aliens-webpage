@@ -34,13 +34,13 @@ function SocialStripe() {
             <div className={classes.rightSectionBtnIconTwt}>
               <Image src={twitter} alt="" />
             </div>
-            <Typography>Twitter</Typography>
+            <Typography className={classes.twitterUpper}>Twitter</Typography>
           </Button>
           <Button variant="contained" className={classes.rightSectionBtn}>
             <div className={classes.rightSectionBtnIconIns}>
               <Image src={instagram} alt="" />
             </div>
-            <Typography>Instagram</Typography>
+            <Typography className={classes.instaUpper}>Instagram</Typography>
           </Button>
         </div>
       </div>

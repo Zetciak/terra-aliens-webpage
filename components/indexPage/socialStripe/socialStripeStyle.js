@@ -86,6 +86,14 @@ const useStyles = makeStyles({
     marginTop: '8px',
   },
 
+  instaUpper: {
+    marginTop: '0px',
+  },
+
+  twitterUpper: {
+    marginTop: '-1px',
+  },
+
   //<<<<<<<<<<<<<<<<<<<< Responsive scale
   //1440px
   ['@media (max-width: 1440px)']: {
@@ -153,6 +161,14 @@ const useStyles = makeStyles({
       width: '100%',
       textAlign: 'center',
       marginTop: '-10px',
+    },
+
+    instaUpper: {
+      marginTop: '-2px',
+    },
+
+    twitterUpper: {
+      marginTop: '-1px',
     },
   },
 
