@@ -14,7 +14,7 @@ import rightTwitter from '../../public/images/rightTwitter.svg';
 import MenuIcon from '@material-ui/icons/MenuRounded';
 
 //CSS
-import useStyles from './navigationBarStyle';
+import useStyles from './NavigationBarStyle';
 
 //Script
 function NavigationBar() {
