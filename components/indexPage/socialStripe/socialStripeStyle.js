@@ -5,7 +5,7 @@ const useStyles = makeStyles({
     margin: '0 auto',
     marginTop: '80px',
     height: '155px',
-    background: 'url(../../../asset/images/socialStripe.png)',
+    background: 'url(https://i.imgur.com/hsye1Ls.png)',
     width: '100%',
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
