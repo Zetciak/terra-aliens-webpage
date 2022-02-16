@@ -164,7 +164,7 @@ const useStyles = makeStyles({
     },
 
     instaUpper: {
-      marginTop: '-3px',
+      marginTop: '-2px',
     },
 
     twitterUpper: {
@@ -172,7 +172,11 @@ const useStyles = makeStyles({
     },
 
     rightSectionBtnIconIns: {
-      marginTop: '2px',
+      marginTop: '7px',
+    },
+
+    rightSectionBtnIconDc: {
+      marginTop: '5px',
     },
   },
 
