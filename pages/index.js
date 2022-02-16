@@ -19,7 +19,7 @@ function HomePage() {
   return (
     <>
       <Head>
-        <title>Terra Aliens NFT</title>
+        <title>Terra Aliens NFTa</title>
       </Head>
       <NavigationBar />
       <FirstSection />
