@@ -11,6 +11,8 @@ import FirstSection from '../components/indexPage/firstSection/firstSection';
 import SocialStripe from '../components/indexPage/socialStripe/socialStripe';
 import Utilities from '../components/indexPage/utilities/utilities';
 import Arts from '../components/indexPage/arts/arts';
+import Traits from '../components/indexPage/traits/traits';
+import GalaxyCommunity from '../components/indexPage/galaxyCommunity/galaxyCommunity';
 
 //CSS
 import useStyles from '../components/indexPage/indexStyle';
@@ -28,6 +30,8 @@ function HomePage() {
       <SocialStripe />
       <Utilities />
       <Arts />
+      <Traits />
+      <GalaxyCommunity />
     </div>
   );
 }

@@ -2,9 +2,7 @@
 import Image from 'next/image';
 
 //Images
-import art1 from '../../../public/images/art1.png';
-import art2 from '../../../public/images/art2.png';
-import test from '../../../public/images/test.png';
+import artsImg from '../../../public/images/test.png';
 
 //CSS
 import useStyles from './artsStyle';
@@ -16,7 +14,7 @@ function Arts() {
 
   return (
     <div className={classes.mainDiv}>
-      <Image src={test} alt="" />
+      <Image src={artsImg} alt="" />
     </div>
   );
 }
