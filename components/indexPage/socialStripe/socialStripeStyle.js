@@ -57,7 +57,7 @@ const useStyles = makeStyles({
     },
 
     '& p': {
-      fontFamily: 'Syne',
+      fontFamily: 'Montserrat',
       fontStyle: 'normal',
       fontWeight: '500',
       fontSize: '14px',
@@ -78,7 +78,7 @@ const useStyles = makeStyles({
 
   rightSectionBtnIconTwt: {
     marginRight: '8px',
-    marginTop: '3px',
+    marginTop: '4px',
   },
 
   rightSectionBtnIconIns: {
@@ -87,11 +87,11 @@ const useStyles = makeStyles({
   },
 
   instaUpper: {
-    marginTop: '0px',
+    marginTop: '-1px',
   },
 
   twitterUpper: {
-    marginTop: '-1px',
+    marginTop: '0px',
   },
 
   //<<<<<<<<<<<<<<<<<<<< Responsive scale
@@ -217,7 +217,7 @@ const useStyles = makeStyles({
       width: '13px',
       height: 'auto',
       marginRight: '5px',
-      marginTop: '0px',
+      marginTop: '-1px',
     },
 
     rightSectionBtnIconTwt: {
@@ -231,7 +231,7 @@ const useStyles = makeStyles({
       width: '13px',
       height: 'auto',
       marginRight: '5px',
-      marginTop: '3px',
+      marginTop: '2px',
     },
   },
 

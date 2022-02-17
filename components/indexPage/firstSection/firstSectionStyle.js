@@ -25,7 +25,7 @@ const useStyles = makeStyles({
 
   leftSectionDesc: {
     marginTop: '24px',
-    fontFamily: 'Syne',
+    fontFamily: 'Montserrat',
     fontStyle: 'normal',
     fontWeight: '400',
     fontSize: '14px',
@@ -49,7 +49,7 @@ const useStyles = makeStyles({
     },
 
     '& p': {
-      fontFamily: 'Syne',
+      fontFamily: 'Montserrat',
       fontStyle: 'normal',
       fontWeight: '500',
       fontSize: '14px',
