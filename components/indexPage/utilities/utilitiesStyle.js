@@ -254,6 +254,20 @@ const useStyles = makeStyles({
       marginBottom: '48px',
     },
   },
+
+  //450px
+  ['@media (max-width: 450px)']: {
+    mainTitle: {
+      fontSize: '38px',
+    },
+  },
+
+  //370px
+  ['@media (max-width: 370px)']: {
+    mainTitle: {
+      fontSize: '35px',
+    },
+  },
 });
 
 export default useStyles;

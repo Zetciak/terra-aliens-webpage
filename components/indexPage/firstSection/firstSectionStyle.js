@@ -62,8 +62,8 @@ const useStyles = makeStyles({
   rightSection: {
     marginTop: '10px',
     marginRight: '60px',
-    width: '411px',
-    height: '439px',
+    width: '463px',
+    height: '494px',
     float: 'right',
   },
 
@@ -75,8 +75,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //1150px
-  ['@media (max-width: 1150px)']: {
+  //1200px
+  ['@media (max-width: 1200px)']: {
     leftSection: {
       width: '90%',
       margin: '0 auto',
@@ -94,12 +94,13 @@ const useStyles = makeStyles({
 
     rightSection: {
       margin: '0 auto',
+      marginTop: '-80px',
       float: 'none',
     },
   },
 
-  //550px
-  ['@media (max-width: 550px)']: {
+  //860px
+  ['@media (max-width: 860px)']: {
     rightSection: {
       display: 'none',
     },

@@ -10,6 +10,7 @@ const NavigationBar = dynamic(
 import FirstSection from '../components/indexPage/firstSection/firstSection';
 import SocialStripe from '../components/indexPage/socialStripe/socialStripe';
 import Utilities from '../components/indexPage/utilities/utilities';
+import Arts from '../components/indexPage/arts/arts';
 
 //CSS
 import useStyles from '../components/indexPage/indexStyle';
@@ -26,6 +27,7 @@ function HomePage() {
       <FirstSection />
       <SocialStripe />
       <Utilities />
+      <Arts />
     </div>
   );
 }

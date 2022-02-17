@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   mainDiv: {
     margin: '0 auto',
-    marginTop: '80px',
+    marginTop: '120px',
     height: '155px',
     background: 'url(https://i.imgur.com/hsye1Ls.png)',
     width: '100%',
@@ -42,7 +42,7 @@ const useStyles = makeStyles({
     marginLeft: '16px',
     height: '44px',
     background:
-      'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25))',
+      'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
     border: 'transparent',
     borderRadius: '580361px',
     transition: 'opacity .5s',
@@ -50,9 +50,9 @@ const useStyles = makeStyles({
     opacity: '1',
 
     '&:hover': {
-      opacity: '0.8',
+      opacity: '0.7',
       background:
-        'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25))',
+        'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
       boxShadow: 'none',
     },
 
@@ -102,8 +102,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //1150px
-  ['@media (max-width: 1150px)']: {
+  //1200px
+  ['@media (max-width: 1200px)']: {
     mainDiv: {
       marginTop: '380px',
       backgroundSize: '100% 120px',
@@ -180,15 +180,15 @@ const useStyles = makeStyles({
     },
   },
 
-  //550px
-  ['@media (max-width: 550px)']: {
+  //860px
+  ['@media (max-width: 860px)']: {
     mainDiv: {
       marginTop: '-180px',
     },
   },
 
-  //450px
-  ['@media (max-width: 450px)']: {
+  //461px
+  ['@media (max-width: 461px)']: {
     leftSectionTitle: {
       marginTop: '7px',
       fontSize: '17px',
@@ -203,8 +203,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //395px
-  ['@media (max-width: 395px)']: {
+  //410px
+  ['@media (max-width: 410px)']: {
     rightSectionBtn: {
       minWidth: '0px',
 
@@ -235,8 +235,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //340px
-  ['@media (max-width: 340px)']: {
+  //350px
+  ['@media (max-width: 350px)']: {
     leftSectionTitle: {
       marginTop: '10px',
     },
@@ -270,6 +270,44 @@ const useStyles = makeStyles({
       height: 'auto',
       marginRight: '5px',
       marginTop: '2px',
+    },
+  },
+
+  //330px
+  ['@media (max-width: 330px)']: {
+    rightSectionBtn: {
+      minWidth: '0px',
+      marginTop: '3px',
+      height: '33px',
+
+      '& p': {
+        fontSize: '7px',
+      },
+    },
+
+    rightSectionBtnIconDc: {
+      width: '11px',
+      height: 'auto',
+      marginRight: '5px',
+      marginTop: '-1px',
+    },
+
+    rightSectionBtnIconTwt: {
+      width: '11px',
+      height: 'auto',
+      marginRight: '5px',
+      marginTop: '-1px',
+    },
+
+    rightSectionBtnIconIns: {
+      width: '11px',
+      height: 'auto',
+      marginRight: '5px',
+      marginTop: '2px',
+    },
+
+    instaUpper: {
+      marginTop: '1px',
     },
   },
 });
