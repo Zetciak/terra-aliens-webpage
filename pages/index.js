@@ -7,6 +7,7 @@ const NavigationBar = dynamic(
   () => import('../components/navigationBar/navigationBar'),
   { ssr: false }
 );
+import Footer from '../components/footer/footer';
 import FirstSection from '../components/indexPage/firstSection/firstSection';
 import SocialStripe from '../components/indexPage/socialStripe/socialStripe';
 import Utilities from '../components/indexPage/utilities/utilities';
@@ -32,6 +33,7 @@ function HomePage() {
       <Arts />
       <Traits />
       <GalaxyCommunity />
+      <Footer />
     </div>
   );
 }
