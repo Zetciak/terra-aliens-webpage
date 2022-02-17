@@ -5,6 +5,7 @@ const useStyles = makeStyles({
     marginTop: '100px',
     width: '1294px',
     margin: '0 auto',
+    //background: 'yellow',
   },
 
   topSection: {
@@ -15,7 +16,7 @@ const useStyles = makeStyles({
 
   bottomSection: {
     width: '100%',
-    height: '374px',
+    maxHeight: '374px',
     'mix-blend-mode': 'luminosity',
   },
 
@@ -104,8 +105,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //850px
-  ['@media (max-width: 850px)']: {
+  //855px
+  ['@media (max-width: 855px)']: {
     topSectionTitle: {
       paddingTop: '18px',
       fontSize: '32px',

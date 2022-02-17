@@ -17,15 +17,49 @@ function GalaxyCommunity() {
   const classes = useStyles();
 
   return (
-    <div className={classes.outsideDiv}>
-      <div className={classes.centerDiv}>
-        <div className={classes.bottomImgDiv}>
-          <Image src={bottomImage} alt="" />
+    <>
+      <div className={classes.mainDiv}>
+        <div className={classes.bgDiv}></div>
+        <div className={classes.centerDiv}>
+          <div className={classes.imageDiv}>
+            <Image src={bottomImage} alt="" />
+          </div>
+          <div className={classes.buttonsDiv}>
+            <Typography className={classes.socialsTitle}>
+              Check our galaxy community
+            </Typography>
+            <div className={classes.buttons}>
+              <Button variant="contained" className={classes.rightSectionBtn}>
+                <div className={classes.rightSectionBtnIconDc}>
+                  <Image src={discord} alt="" />
+                </div>
+                <Typography>Discord</Typography>
+              </Button>
+              <Button variant="contained" className={classes.rightSectionBtn}>
+                <div className={classes.rightSectionBtnIconTwt}>
+                  <Image src={twitter} alt="" />
+                </div>
+                <Typography className={classes.twitterUpper}>
+                  Twitter
+                </Typography>
+              </Button>
+              <Button variant="contained" className={classes.rightSectionBtn}>
+                <div className={classes.rightSectionBtnIconIns}>
+                  <Image src={instagram} alt="" />
+                </div>
+                <Typography className={classes.instaUpper}>
+                  Instagram
+                </Typography>
+              </Button>
+            </div>
+          </div>
         </div>
-        <div className={classes.socialsDiv}>
-          <Typography className={classes.socialsTitle}>
-            Check our galaxy community
-          </Typography>
+      </div>
+      <div className={classes.mobileButtons}>
+        <Typography className={classes.socialsTitle}>
+          Check our galaxy community
+        </Typography>
+        <div className={classes.buttons}>
           <Button variant="contained" className={classes.rightSectionBtn}>
             <div className={classes.rightSectionBtnIconDc}>
               <Image src={discord} alt="" />
@@ -46,8 +80,7 @@ function GalaxyCommunity() {
           </Button>
         </div>
       </div>
-      <div className={classes.mainDiv}></div>
-    </div>
+    </>
   );
 }
 

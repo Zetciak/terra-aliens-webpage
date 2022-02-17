@@ -1,39 +1,46 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-  outsideDiv: {
-    margin: '0 auto',
-    marginTop: '-450px',
-    height: '509px',
+  mainDiv: {
     width: '100%',
+    height: '509px',
+    marginTop: '146px',
+    position: 'relative',
+    //background: 'red',
   },
 
-  mainDiv: {
-    margin: '0 auto',
-    marginTop: '228px',
-    height: '282px',
-    background: 'url(https://i.imgur.com/qstQUNs.png)',
+  bgDiv: {
     width: '100%',
+    height: '282px',
+    position: 'absolute',
+    background: 'url(https://i.imgur.com/qstQUNs.png)',
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
+    bottom: '0',
+    left: '0',
+    //background: 'blue',
   },
 
   centerDiv: {
     width: '1280px',
-    height: '509px',
-    margin: '48px auto',
+    height: '100%',
+    margin: '0 auto',
+    //background: 'green',
   },
 
-  bottomImgDiv: {
-    paddingTop: '510px',
+  imageDiv: {
     float: 'left',
-    marginLeft: '-200px',
+    position: 'absolute',
+    bottom: '0',
+    width: '40%',
   },
 
-  socialsDiv: {
+  buttonsDiv: {
     float: 'right',
-    marginTop: '820px',
-    marginRight: '100px',
+    width: '518px',
+    marginTop: '355px',
+    position: 'relative',
+    marginRight: '70px',
   },
 
   socialsTitle: {
@@ -43,13 +50,20 @@ const useStyles = makeStyles({
     fontSize: '32px',
     lineHeight: '150%',
     color: '#ffffff',
-    marginLeft: '-25px',
+    width: '100%',
+    textAlign: 'center',
+    position: 'absolute',
+    marginTop: '-50px',
+  },
+
+  buttons: {
+    width: '80%',
+    margin: '0 auto',
   },
 
   rightSectionBtn: {
     marginTop: '10px',
     minWidth: '119px',
-    marginLeft: '16px',
     height: '44px',
     background:
       'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
@@ -58,6 +72,7 @@ const useStyles = makeStyles({
     transition: 'opacity .5s',
     boxShadow: 'none',
     opacity: '1',
+    marginLeft: '16px',
 
     '&:hover': {
       opacity: '0.7',
@@ -104,6 +119,10 @@ const useStyles = makeStyles({
     marginTop: '0px',
   },
 
+  mobileButtons: {
+    display: 'none',
+  },
+
   //<<<<<<<<<<<<<<<<<<<< Responsive scale
   //1440px
   ['@media (max-width: 1440px)']: {
@@ -112,240 +131,154 @@ const useStyles = makeStyles({
     },
   },
 
-  //1420px
-  ['@media (max-width: 1420px)']: {
-    bottomImgDiv: {
-      paddingTop: '497px',
-    },
-  },
-
-  //1200px
-  ['@media (max-width: 1300px)']: {
-    outsideDiv: {
-      marginTop: '-600px',
-    },
-
-    bottomImgDiv: {
-      width: '450px',
-      paddingTop: '406px',
-      marginLeft: '-250px',
-    },
-
-    socialsDiv: {
-      float: 'right',
-      marginTop: '670px',
-      marginRight: '50px',
-    },
-
-    socialsTitle: {
-      fontSize: '26px',
-      marginLeft: '10px',
-    },
-
-    rightSectionBtn: {
-      minWidth: '100px',
-      height: '40px',
-      marginTop: '3px',
-    },
-  },
-
-  //1155px
-  ['@media (max-width: 1155px)']: {
-    outsideDiv: {
-      marginTop: '-650px',
-    },
-
-    bottomImgDiv: {
-      width: '450px',
-      paddingTop: '355px',
-      marginLeft: '0px',
-    },
-
-    socialsDiv: {
-      float: 'right',
-      marginTop: '630px',
-      marginRight: '60px',
-    },
-  },
-
-  //1080px
-  ['@media (max-width: 1080px)']: {
-    socialsDiv: {
-      float: 'right',
-      marginTop: '640px',
-      marginRight: '40px',
-    },
-
-    socialsTitle: {
-      fontSize: '20px',
-      marginLeft: '30px',
-    },
-
-    rightSectionBtn: {
-      minWidth: '80px',
-      height: '35px',
-      marginTop: '3px',
-
-      '& p': {
-        fontSize: '10px',
-      },
-    },
-  },
-
-  //960px
-  ['@media (max-width: 960px)']: {
+  //1300px
+  ['@media (max-width: 1440px)']: {
     mainDiv: {
-      marginTop: '187px',
-      height: '122px',
-    },
-
-    bottomImgDiv: {
-      width: '250px',
-      paddingTop: '359px',
-      marginLeft: '20px',
-    },
-
-    socialsDiv: {
-      float: 'right',
-      marginTop: '510px',
-      marginRight: '70px',
-    },
-  },
-
-  //937px
-  ['@media (max-width: 937px)']: {
-    mainDiv: {
-      marginTop: '187px',
-      height: '122px',
-    },
-
-    bottomImgDiv: {
-      width: '250px',
-      paddingTop: '354px',
-      marginLeft: '20px',
-    },
-
-    socialsDiv: {
-      float: 'right',
-      marginTop: '510px',
-      marginRight: '80px',
-    },
-  },
-
-  //850px
-  ['@media (max-width: 850px)']: {
-    mainDiv: {
-      marginTop: '187px',
-    },
-  },
-
-  //825px
-  ['@media (max-width: 825px)']: {
-    outsideDiv: {
-      marginTop: '-750px',
-    },
-
-    socialsDiv: {
-      float: 'right',
-      marginTop: '405px',
-      marginRight: '35px',
-    },
-
-    bottomImgDiv: {
-      width: '250px',
-      paddingTop: '254px',
-      marginLeft: '20px',
-    },
-  },
-
-  //805px
-  ['@media (max-width: 805px)']: {
-    bottomImgDiv: {
-      paddingTop: '247px',
-    },
-  },
-
-  //750px
-  ['@media (max-width: 750px)']: {
-    bottomImgDiv: {
-      width: '220px',
-      paddingTop: '277px',
-      marginLeft: '5px',
-    },
-  },
-
-  //690px
-  ['@media (max-width: 690px)']: {
-    outsideDiv: {
-      marginTop: '-850px',
-    },
-
-    bottomImgDiv: {
       display: 'none',
     },
 
-    socialsDiv: {
+    mobileButtons: {
+      marginTop: '150px',
+      display: 'block',
       width: '100%',
-      textAlign: 'center',
-      marginLeft: '0',
-      marginRight: '1.5%',
-      marginTop: '720px',
-    },
-  },
-
-  //600px
-  ['@media (max-width: 600px)']: {
-    outsideDiv: {
-      marginTop: '-900px',
-    },
-  },
-
-  //450px
-  ['@media (max-width: 600px)']: {
-    outsideDiv: {
-      marginTop: '-935px',
-    },
-  },
-
-  //410px
-  ['@media (max-width: 410px)']: {
-    outsideDiv: {
-      marginTop: '-955px',
+      height: '250px',
+      background: 'url(https://i.imgur.com/qstQUNs.png)',
+      backgroundSize: '100% 100%',
+      backgroundRepeat: 'no-repeat',
     },
 
     socialsTitle: {
-      marginTop: '4px',
-      fontSize: '16px',
+      fontFamily: 'Syne',
+      fontStyle: 'normal',
+      fontWeight: '600',
+      fontSize: '32px',
+      lineHeight: '150%',
+      color: '#ffffff',
+      width: '90%',
+      margin: '0 auto',
+      marginTop: '-50px',
+      textAlign: 'center',
+      position: 'static',
+      paddingTop: '85px',
+    },
+
+    buttons: {
+      width: '90%',
+      margin: '0 auto',
+      textAlign: 'center',
+    },
+  },
+
+  //565px
+  ['@media (max-width: 565px)']: {
+    socialsTitle: {
+      paddingTop: '40px',
+    },
+  },
+
+  //470px
+  ['@media (max-width: 470px)']: {
+    mobileButtons: {
+      marginTop: '150px',
+      height: '170px',
+    },
+
+    socialsTitle: {
+      paddingTop: '45px',
+      fontSize: '23px',
     },
 
     rightSectionBtn: {
-      minWidth: '0px',
-      height: '32px',
-      marginTop: '9px',
+      marginTop: '15px',
+      minWidth: '0',
+      height: '40px',
+      marginLeft: '13px',
 
       '& p': {
-        fontSize: '8px',
+        fontSize: '12px',
+        lineHeight: '100%',
+      },
+
+      '&:first-child': {
+        marginLeft: '0px',
       },
     },
   },
 
-  //373px
-  ['@media (max-width: 373px)']: {
-    outsideDiv: {
-      marginTop: '-955px',
+  //420px
+  ['@media (max-width: 420px)']: {
+    socialsTitle: {
+      paddingTop: '48px',
+      fontSize: '20px',
     },
 
-    socialsTitle: {
-      marginTop: '-16px',
-      fontSize: '16px',
+    rightSectionBtn: {
+      marginTop: '15px',
+      minWidth: '0',
+      height: '35px',
+      marginLeft: '10px',
+
+      '& p': {
+        fontSize: '10px',
+        lineHeight: '100%',
+      },
+
+      '&:first-child': {
+        marginLeft: '0px',
+      },
     },
   },
 
-  //330px
-  ['@media (max-width: 373px)']: {
+  //380px
+  ['@media (max-width: 380px)']: {
+    mobileButtons: {
+      marginTop: '150px',
+      height: '120px',
+    },
+
     socialsTitle: {
-      marginTop: '-14px',
-      fontSize: '15px',
+      paddingTop: '25px',
+      fontSize: '16px',
+    },
+
+    rightSectionBtn: {
+      marginTop: '15px',
+      marginLeft: '8px',
+
+      '& p': {
+        fontSize: '8px',
+        lineHeight: '100%',
+      },
+
+      '&:first-child': {
+        marginLeft: '0px',
+      },
+    },
+
+    rightSectionBtnIconDc: {
+      marginRight: '8px',
+      marginTop: '0px',
+      width: '12px',
+    },
+
+    rightSectionBtnIconTwt: {
+      marginRight: '8px',
+      marginTop: '0px',
+      width: '12px',
+    },
+
+    rightSectionBtnIconIns: {
+      marginRight: '8px',
+      marginTop: '3px',
+      width: '12px',
+    },
+
+    instaUpper: {
+      marginTop: '1px',
+    },
+
+    twitterUpper: {
+      marginTop: '0px',
     },
   },
 });
