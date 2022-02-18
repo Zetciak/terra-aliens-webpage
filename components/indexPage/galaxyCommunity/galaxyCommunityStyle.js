@@ -31,7 +31,7 @@ const useStyles = makeStyles({
   imageDiv: {
     float: 'left',
     position: 'absolute',
-    bottom: '0',
+    bottom: '-1',
     width: '40%',
   },
 
