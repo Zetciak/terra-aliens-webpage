@@ -13,8 +13,8 @@ import Image from 'next/image';
 import ArrowIcon from '@material-ui/icons/ArrowForwardIos';
 
 //Images
-import closedMark from '../../../public/images/closedMark.png';
-import openMark from '../../../public/images/openMark.png';
+//import closedMark from '../../../public/images/closedMark.png';
+//import openMark from '../../../public/images/openMark.png';
 
 //CSS
 import useStyles from './faqStyle';

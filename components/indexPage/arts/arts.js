@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 //Images
-import artsImg from '../../../public/images/test.png';
+import artsImg from '../../../public/images/arts.png';
 
 //CSS
 import useStyles from './artsStyle';

@@ -15,6 +15,7 @@ import Arts from '../components/indexPage/arts/arts';
 import Traits from '../components/indexPage/traits/traits';
 import GalaxyCommunity from '../components/indexPage/galaxyCommunity/galaxyCommunity';
 import Faq from '../components/indexPage/faq/faq';
+import Roadmap from '../components/indexPage/roadmap/roadmap';
 
 //CSS
 import useStyles from '../components/indexPage/indexStyle';
@@ -33,6 +34,7 @@ function HomePage() {
       <Utilities />
       <Arts />
       <Traits />
+      <Roadmap />
       <Faq />
       <GalaxyCommunity />
       <Footer />
