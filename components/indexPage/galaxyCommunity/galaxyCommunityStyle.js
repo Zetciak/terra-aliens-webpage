@@ -227,6 +227,32 @@ const useStyles = makeStyles({
         marginLeft: '0px',
       },
     },
+
+    rightSectionBtnIconDc: {
+      marginRight: '8px',
+      marginTop: '0px',
+      width: '12px',
+    },
+
+    rightSectionBtnIconTwt: {
+      marginRight: '8px',
+      marginTop: '0px',
+      width: '12px',
+    },
+
+    rightSectionBtnIconIns: {
+      marginRight: '8px',
+      marginTop: '3px',
+      width: '12px',
+    },
+
+    instaUpper: {
+      marginTop: '1px',
+    },
+
+    twitterUpper: {
+      marginTop: '0px',
+    },
   },
 
   //380px
