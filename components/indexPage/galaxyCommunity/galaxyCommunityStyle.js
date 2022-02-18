@@ -243,12 +243,12 @@ const useStyles = makeStyles({
 
     rightSectionBtnIconIns: {
       marginRight: '8px',
-      marginTop: '3px',
+      marginTop: '0px',
       width: '12px',
     },
 
     instaUpper: {
-      marginTop: '1px',
+      marginTop: '-1px',
     },
 
     twitterUpper: {
