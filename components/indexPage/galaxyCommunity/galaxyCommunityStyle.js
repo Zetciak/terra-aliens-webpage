@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     marginTop: '146px',
     position: 'relative',
     //background: 'red',
+    'overflow-y': 'hidden',
   },
 
   bgDiv: {

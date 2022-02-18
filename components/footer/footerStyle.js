@@ -4,12 +4,13 @@ const useStyles = makeStyles({
   appBar: {
     position: 'relative',
     width: '1280px',
-    height: '62px',
+    height: '102px',
     margin: '0 auto',
     marginTop: '92px',
     paddingTop: '20px',
     background: 'transparent',
     borderTop: '1px solid #a798fd',
+    'overflow-y': 'hidden',
   },
 
   toolBar: {
