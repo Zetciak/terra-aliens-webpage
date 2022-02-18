@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   mainDiv: {
-    marginTop: '105px',
+    marginTop: '55px',
     width: '1280px',
     minHeight: '536px',
     margin: '48px auto',

@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   },
 
   desc: {
-    fontFamily: 'Inter',
+    fontFamily: 'Montserrat',
     fontStyle: 'normal',
     fontWeight: '400',
     fontSize: '18px',
@@ -67,35 +67,50 @@ const useStyles = makeStyles({
   ['@media (max-width: 1000px)']: {
     mainTitleTypography: {
       fontSize: '40px',
-      marginBottom: '30px',
     },
-  },
 
-  //1200px
-  ['@media (max-width: 1200px)']: {
     title: {
-      fontSize: '27px',
-      paddingTop: '18px',
+      fontSize: '28px',
+      paddingTop: '15px',
+      paddingLeft: '15px',
     },
 
     desc: {
-      fontSize: '15px',
+      fontSize: '16px',
       marginTop: '-15px',
       paddingLeft: '15px',
     },
   },
 
-  //900px
-  ['@media (max-width: 900px)']: {
-    title: {
-      fontSize: '20px',
-      marginTop: '-15px',
+  //750px
+  ['@media (max-width: 750px)']: {
+    mainTitleTypography: {
+      fontSize: '32px',
     },
 
-    rightCornerIcon: {
-      width: '20px',
-      height: '20px',
-      marginTop: '-20px',
+    title: {
+      fontSize: '25px',
+      paddingTop: '18px',
+      paddingLeft: '15px',
+    },
+
+    desc: {
+      fontSize: '14px',
+      marginTop: '-15px',
+      paddingLeft: '15px',
+    },
+  },
+
+  //650px
+  ['@media (max-width: 650px)']: {
+    mainTitleTypography: {
+      fontSize: '30px',
+    },
+
+    title: {
+      fontSize: '22px',
+      paddingTop: '23px',
+      paddingLeft: '15px',
     },
 
     desc: {
@@ -103,91 +118,88 @@ const useStyles = makeStyles({
       marginTop: '-15px',
       paddingLeft: '15px',
     },
-
-    mainTitleTypography: {
-      fontSize: '30px',
-      marginBottom: '20px',
-    },
   },
 
-  //750px
-  ['@media (max-width: 750px)']: {
+  //580px
+  ['@media (max-width: 580px)']: {
+    mainDiv: {
+      marginTop: '55px',
+    },
+
+    mainTitleTypography: {
+      fontSize: '26px',
+    },
+
     title: {
-      fontSize: '18px',
-      paddingTop: '2px',
-      marginTop: '1px',
+      fontSize: '19px',
+      paddingTop: '23px',
+      paddingLeft: '15px',
     },
 
     desc: {
-      fontSize: '12px',
+      fontSize: '10px',
       marginTop: '-15px',
       paddingLeft: '15px',
     },
   },
 
-  //620px
-  ['@media (max-width: 620px)']: {
+  //520px
+  ['@media (max-width: 580px)']: {
     title: {
-      fontSize: '15px',
-      paddingTop: '2px',
-      marginTop: '3px',
-    },
-
-    mainTitleTypography: {
-      fontSize: '27px',
-      marginBottom: '20px',
-    },
-  },
-
-  //510px
-  ['@media (max-width: 510px)']: {
-    title: {
-      fontSize: '12px',
-      marginTop: '-15px',
-      paddingLeft: '5px',
-    },
-
-    rightCornerIcon: {
-      width: '13px',
-      height: '13px',
-      marginTop: '-43px',
+      fontSize: '16px',
+      paddingTop: '28px',
+      paddingLeft: '15px',
     },
 
     desc: {
       fontSize: '10px',
-      marginTop: '-30px',
-      paddingLeft: '5px',
-    },
-
-    mainTitleTypography: {
-      fontSize: '20px',
-      marginBottom: '20px',
+      marginTop: '-15px',
+      paddingLeft: '15px',
     },
   },
 
-  //440px
-  ['@media (max-width: 440px)']: {
+  //460px
+  ['@media (max-width: 460px)']: {
     title: {
-      fontSize: '8px',
-      marginTop: '-20px',
-      paddingLeft: '0px',
-    },
-
-    rightCornerIcon: {
-      width: '10px',
-      height: '10px',
-      marginTop: '-57px',
+      fontSize: '14px',
+      paddingTop: '18px',
+      paddingLeft: '15px',
     },
 
     desc: {
-      fontSize: '7px',
-      marginTop: '-45px',
-      paddingLeft: '0px',
+      fontSize: '10px',
+      marginTop: '-15px',
+      paddingLeft: '15px',
+    },
+  },
+
+  //400px
+  ['@media (max-width: 400px)']: {
+    title: {
+      fontSize: '12px',
+      paddingTop: '19px',
+      paddingLeft: '15px',
     },
 
-    mainTitleTypography: {
-      fontSize: '15px',
-      marginBottom: '15px',
+    desc: {
+      fontSize: '10px',
+      marginTop: '-15px',
+      paddingLeft: '15px',
+    },
+  },
+
+  //360px
+  ['@media (max-width: 360px)']: {
+    title: {
+      fontSize: '11px',
+      paddingTop: '20px',
+      paddingLeft: '7px',
+    },
+
+    desc: {
+      fontSize: '9px',
+      marginTop: '-15px',
+      paddingLeft: '7px',
     },
   },
 });

@@ -23,7 +23,7 @@ const StyledAccordion = withStyles({
   root: {
     background: 'url(https://i.imgur.com/0v7YU1P.png)',
     transition: 'all .5s',
-    height: '94px',
+    minHeight: '94px',
     borderBottom: '1px solid #A799FD',
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
@@ -41,45 +41,19 @@ const StyledAccordion = withStyles({
         opacity: '0.95',
       },
 
-      //900px
-      ['@media (max-width: 900px)']: {
-        minHeight: '104px',
+      //460px
+      ['@media (max-width: 460px)']: {
+        minHeight: '115px',
       },
+    },
 
-      //510px
-      ['@media (max-width: 510px)']: {
-        minHeight: '84px',
-      },
-
-      //440px
-      ['@media (max-width: 440px)']: {
-        minHeight: '54px',
-      },
+    //460px
+    ['@media (max-width: 460px)']: {
+      minHeight: '74px',
     },
 
     '&:hover': {
       opacity: '0.8',
-    },
-  },
-
-  //900px
-  ['@media (max-width: 900px)']: {
-    root: {
-      height: '54px',
-    },
-  },
-
-  //510px
-  ['@media (max-width: 510px)']: {
-    root: {
-      height: '34px',
-    },
-  },
-
-  //440px
-  ['@media (max-width: 440px)']: {
-    root: {
-      height: '24px',
     },
   },
 
