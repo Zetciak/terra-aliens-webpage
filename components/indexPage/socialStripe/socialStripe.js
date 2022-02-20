@@ -24,13 +24,23 @@ function SocialStripe() {
           </Typography>
         </div>
         <div className={classes.rightSection}>
-          <Button variant="contained" className={classes.rightSectionBtn}>
+          <Button
+            variant="contained"
+            className={classes.rightSectionBtn}
+            href="https://discord.gg/terraaliens"
+            target="_blank"
+          >
             <div className={classes.rightSectionBtnIconDc}>
               <Image src={discord} alt="" />
             </div>
             <Typography>Discord</Typography>
           </Button>
-          <Button variant="contained" className={classes.rightSectionBtn}>
+          <Button
+            variant="contained"
+            className={classes.rightSectionBtn}
+            href="https://twitter.com/TerraAliensNFT"
+            target="_blank"
+          >
             <div className={classes.rightSectionBtnIconTwt}>
               <Image src={twitter} alt="" />
             </div>

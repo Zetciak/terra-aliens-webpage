@@ -9,7 +9,7 @@ const useStyles = makeStyles({
 
   leftSection: {
     marginTop: '60px',
-    width: '517px',
+    width: '617px',
     height: '316px',
     float: 'left',
   },
@@ -38,13 +38,17 @@ const useStyles = makeStyles({
     minWidth: '140px',
     height: '40px',
     background: 'url(https://i.imgur.com/crWsPpo.png)',
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'no-repeat',
     border: 'transparent',
     borderRadius: '534543px',
     transition: 'background .5s',
     boxShadow: 'none',
 
     '&:hover': {
-      background: 'url(https://i.imgur.com/eQOHeDU.png)',
+      background: 'url(https://i.imgur.com/Qz6uRdT.png)',
+      backgroundSize: '100% 100%',
+      backgroundRepeat: 'no-repeat',
       boxShadow: 'none',
     },
 
@@ -61,7 +65,6 @@ const useStyles = makeStyles({
 
   rightSection: {
     marginTop: '10px',
-    marginRight: '60px',
     width: '463px',
     height: '494px',
     float: 'right',
@@ -75,8 +78,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //1200px
-  ['@media (max-width: 1200px)']: {
+  //1300px
+  ['@media (max-width: 1300px)']: {
     leftSection: {
       width: '90%',
       margin: '0 auto',

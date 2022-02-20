@@ -31,7 +31,6 @@ function HomePage() {
       <NavigationBar />
       <FirstSection />
       <SocialStripe />
-      <Utilities />
       <Arts />
       <Traits />
       <Roadmap />
@@ -41,5 +40,7 @@ function HomePage() {
     </div>
   );
 }
+
+//<Utilities />
 
 export default HomePage;

@@ -46,7 +46,7 @@ function NavigationBar() {
           <div className={classes.logo}>
             <Image src={logo} alt="Logo" />
           </div>
-          {screenW >= 1000 && (
+          {screenW >= 1100 && (
             <>
               <div className={classes.centerElements}>
                 <ul>
@@ -72,30 +72,47 @@ function NavigationBar() {
           <div className={classes.rightElements}>
             <ul>
               <li onClick={changeNavVisible}>
-                <a href="https://google.com">
-                  <Image
-                    src={rightDiscord}
-                    alt="Discord"
-                    className={classes.rightElementsElement}
-                  />
+                <a
+                  href="https://discord.gg/terraaliens"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.rightElementsElement}>
+                    <Image
+                      src={rightDiscord}
+                      alt="Discord"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
+                </a>
+              </li>
+              <li onClick={changeNavVisible}>
+                <a
+                  href="https://twitter.com/TerraAliensNFT"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.rightElementsElement}>
+                    <Image
+                      src={rightTwitter}
+                      alt="Twitter"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
                 </a>
               </li>
               <li onClick={changeNavVisible}>
                 <a href="https://google.com">
-                  <Image
-                    src={rightTwitter}
-                    alt="Twitter"
-                    className={classes.rightElementsElement}
-                  />
-                </a>
-              </li>
-              <li onClick={changeNavVisible}>
-                <a href="https://google.com">
-                  <Image
-                    src={rightInstagram}
-                    alt="Instagram"
-                    className={classes.rightElementsElement}
-                  />
+                  <div className={classes.rightElementsElement}>
+                    <Image
+                      src={rightInstagram}
+                      alt="Instagram"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
                 </a>
               </li>
             </ul>

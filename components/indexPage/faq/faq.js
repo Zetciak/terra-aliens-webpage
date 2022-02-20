@@ -25,25 +25,19 @@ const StyledAccordion = withStyles({
     transition: 'all .5s',
     minHeight: '94px',
     borderBottom: '1px solid #A799FD',
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
     opacity: '1',
 
     '&$expanded': {
       margin: '0px',
       background: 'url(https://i.imgur.com/BBWl5CD.png)',
-      backgroundSize: '100% 100%',
-      backgroundRepeat: 'no-repeat',
-      minHeight: '135px',
+      backgroundSize: 'cover',
+      minHeight: '0px',
+      paddingBottom: '10px',
       opacity: '1',
 
       '&:hover': {
         opacity: '0.95',
-      },
-
-      //460px
-      ['@media (max-width: 460px)']: {
-        minHeight: '115px',
       },
     },
 
@@ -70,24 +64,34 @@ function Faq() {
 
   const data = [
     {
-      id: 'faq1',
+      id: 'faq11',
       title: 'What is Terra Aliens?',
-      desc: 'Lorem ipsum costam asdasunijdnisadnisda ndasondoasmimodas moidasomiadsmodamos',
+      desc: 'Terra Aliens are a collection of unique NFTs built on the Terra blockchain with a strong focus on utility and partnerships.',
     },
     {
-      id: 'faq2',
-      title: 'How can I buy a Terra Alien?',
-      desc: 'Lorem ipsum costam asdasunijdnisadnisda ndasondoasmimodas moidasomiadsmodamos',
+      id: 'faq22',
+      title: 'When is mint and what is the price?',
+      desc: 'That is yet to be revealed.',
     },
     {
-      id: 'faq3',
-      title: 'What is the Treasury?',
-      desc: 'Lorem ipsum costam asdasunijdnisadnisda ndasondoasmimodas moidasomiadsmodamos',
+      id: 'faq33',
+      title: 'How to contact the team?',
+      desc: 'You can always chat with us at our Discord server! \nAlso, you can find us on Twitter @TerraAliensNFT',
     },
     {
-      id: 'faq4',
-      title: 'What rights do I have to my Terra Alien?',
-      desc: 'Lorem ipsum costam asdasunijdnisadnisda ndasondoasmimodas moidasomiadsmodamos',
+      id: 'faq44',
+      title: 'How is the rarity of my NFT determined?',
+      desc: 'The rarity will be determined by the combination of traits your Alien has. The utility might differ depending on the traits as well.',
+    },
+    {
+      id: 'faq55',
+      title: 'Will there be more than one collection?',
+      desc: 'Yes! More details on that will be revealed at the right time…',
+    },
+    {
+      id: 'faq66',
+      title: 'How to get a WL spot?',
+      desc: 'Check #how-to-get-whitelisted channel at our Discord.',
     },
   ];
 
@@ -107,9 +111,11 @@ function Faq() {
             key={id}
             onChange={handleChange(id)}
             square
+            disableGutters
           >
             <AccordionSummary
-            /*expandIcon={
+              className={classes.panelSummary}
+              /*expandIcon={
                 expanded ? (
                   <div className={classes.rightCornerIcon}>
                     <Image src={openMark} alt="X" />

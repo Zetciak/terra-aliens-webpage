@@ -66,19 +66,15 @@ const useStyles = makeStyles({
     marginTop: '10px',
     minWidth: '119px',
     height: '44px',
-    background:
-      'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
+    background: 'url(https://i.imgur.com/k431WdR.png)',
     border: 'transparent',
     borderRadius: '580361px',
-    transition: 'opacity .5s',
+    transition: 'background .5s',
     boxShadow: 'none',
-    opacity: '1',
     marginLeft: '16px',
 
     '&:hover': {
-      opacity: '0.7',
-      background:
-        'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
+      background: 'url(https://i.imgur.com/dCwxR21.png)',
       boxShadow: 'none',
     },
 

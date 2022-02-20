@@ -23,38 +23,66 @@ function Footer() {
           <div className={classes.logo}>
             <Image src={logo} alt="Logo" />
           </div>
+          <div className={classes.copy}>
+            <Typography className={classes.leftTypography}>
+              @TERRAALIENS2022
+            </Typography>
+          </div>
           <div className={classes.centerElements}>
             <Typography className={classes.centerTypography}>
-              @TERRAALIENS2022
+              <a
+                href="https://drive.google.com/drive/folders/1JOAXDTrx8tJK4CBUs1JoLIVjM9k648qL"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download Terra Aliens Branding
+              </a>
             </Typography>
           </div>
           <div className={classes.rightElements}>
             <ul>
               <li>
-                <a href="https://google.com">
-                  <Image
-                    src={rightDiscord}
-                    alt="Discord"
-                    className={classes.rightElementsElement}
-                  />
+                <a
+                  href="https://discord.gg/terraaliens"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.rightElementsElement}>
+                    <Image
+                      src={rightDiscord}
+                      alt="Discord"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/TerraAliensNFT"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.rightElementsElement}>
+                    <Image
+                      src={rightTwitter}
+                      alt="Twitter"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
                 </a>
               </li>
               <li>
                 <a href="https://google.com">
-                  <Image
-                    src={rightTwitter}
-                    alt="Twitter"
-                    className={classes.rightElementsElement}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://google.com">
-                  <Image
-                    src={rightInstagram}
-                    alt="Instagram"
-                    className={classes.rightElementsElement}
-                  />
+                  <div className={classes.rightElementsElement}>
+                    <Image
+                      src={rightInstagram}
+                      alt="Instagram"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
                 </a>
               </li>
             </ul>
@@ -62,8 +90,19 @@ function Footer() {
         </Toolbar>
       </AppBar>
       <div className={classes.copyRight}>
+        <div className={classes.copyRight2}>
+          <Typography className={classes.leftTypography}>
+            @TERRAALIENS2022
+          </Typography>
+        </div>
         <Typography className={classes.centerTypography}>
-          @TERRAALIENS2022
+          <a
+            href="https://drive.google.com/drive/folders/1JOAXDTrx8tJK4CBUs1JoLIVjM9k648qL"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download Terra Aliens Branding
+          </a>
         </Typography>
       </div>
     </>

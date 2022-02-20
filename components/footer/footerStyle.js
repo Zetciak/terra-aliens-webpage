@@ -13,6 +13,11 @@ const useStyles = makeStyles({
     'overflow-y': 'hidden',
   },
 
+  rightElementsElement: {
+    width: '32px',
+    height: '32px',
+  },
+
   toolBar: {
     width: '100%',
     margin: '0 auto',
@@ -27,6 +32,16 @@ const useStyles = makeStyles({
     textAlign: 'center',
     marginLeft: 'auto',
     paddingLeft: '35px',
+  },
+
+  leftTypography: {
+    fontFamily: 'Syne',
+    fontStyle: 'normal',
+    fontWeight: '400',
+    fontSize: '12px',
+    lineHeight: '24px',
+    color: 'rgba(255, 255, 255, 0.75)',
+    marginLeft: '22px',
   },
 
   centerTypography: {
@@ -64,6 +79,10 @@ const useStyles = makeStyles({
     display: 'none',
   },
 
+  copyRight2: {
+    display: 'none',
+  },
+
   //<<<<<<<<<<<<<<<<<<<< Responsive scale
   //1440px
   ['@media (max-width: 1440px)']: {
@@ -72,17 +91,53 @@ const useStyles = makeStyles({
     },
   },
 
-  //450px
-  ['@media (max-width: 450px)']: {
+  //720px
+  ['@media (max-width: 720px)']: {
     centerElements: {
       display: 'none',
     },
 
     copyRight: {
       display: 'block',
-      marginTop: '20px',
+      marginTop: '0px',
+      marginBottom: '20px',
       width: '100%',
       textAlign: 'center',
+    },
+  },
+
+  //550px
+  ['@media (max-width: 550px)']: {
+    rightElementsElement: {
+      width: '48px',
+      height: '48px',
+    },
+  },
+
+  //520px
+  ['@media (max-width: 520px)']: {
+    copy: {
+      display: 'none',
+    },
+
+    copyRight2: {
+      display: 'block',
+      marginTop: '10px',
+      marginBottom: '5px',
+      width: '100%',
+      textAlign: 'center',
+    },
+
+    leftTypography: {
+      marginLeft: '0px',
+    },
+  },
+
+  //370px
+  ['@media (max-width: 370px)']: {
+    rightElementsElement: {
+      width: '35px',
+      height: '35px',
     },
   },
 });

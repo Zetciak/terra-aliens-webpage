@@ -41,18 +41,14 @@ const useStyles = makeStyles({
     minWidth: '119px',
     marginLeft: '16px',
     height: '44px',
-    background:
-      'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
+    background: 'url(https://i.imgur.com/k431WdR.png)',
     border: 'transparent',
     borderRadius: '580361px',
-    transition: 'opacity .5s',
+    transition: 'background .5s',
     boxShadow: 'none',
-    opacity: '1',
 
     '&:hover': {
-      opacity: '0.7',
-      background:
-        'linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.16))',
+      background: 'url(https://i.imgur.com/dCwxR21.png)',
       boxShadow: 'none',
     },
 
@@ -102,8 +98,8 @@ const useStyles = makeStyles({
     },
   },
 
-  //1200px
-  ['@media (max-width: 1200px)']: {
+  //1300px
+  ['@media (max-width: 1300px)']: {
     mainDiv: {
       marginTop: '380px',
       backgroundSize: '100% 120px',
@@ -187,8 +183,33 @@ const useStyles = makeStyles({
     },
   },
 
+  //700px
+  ['@media (max-width: 700px)']: {
+    mainDiv: {
+      marginTop: '-165px',
+    },
+  },
+
+  //570px
+  ['@media (max-width: 570px)']: {
+    mainDiv: {
+      marginTop: '-140px',
+    },
+  },
+
+  //500px
+  ['@media (max-width: 500px)']: {
+    mainDiv: {
+      marginTop: '-80px',
+    },
+  },
+
   //461px
   ['@media (max-width: 461px)']: {
+    mainDiv: {
+      marginTop: '-140px',
+    },
+
     leftSectionTitle: {
       marginTop: '7px',
       fontSize: '17px',

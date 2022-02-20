@@ -17,15 +17,21 @@ function FirstSection() {
     <div className={classes.mainDiv}>
       <div className={classes.leftSection}>
         <Typography className={classes.leftSectionTitle}>
-          TerraAliens, a home for galaxy lovers
+          Join the Invaders before the raid begins
         </Typography>
         <Typography className={classes.leftSectionDesc}>
-          The metacard will act as a mint pass. Holders will get first access to
-          the many other nft projects that we will drop including a happy dad
-          project and full send collabs with other cool nft projects.
+          Terra Aliens is a collection of NFTs built on the Terra blockchain. We
+          are building a Web3 Brand and partnering with the best in the
+          business. Holder utility will be unlike anything you have never seen
+          before. Now you can become a part of it.
         </Typography>
-        <Button variant="contained" className={classes.leftSectionBtn}>
-          <Typography>Get Started</Typography>
+        <Button
+          variant="contained"
+          className={classes.leftSectionBtn}
+          href="https://discord.gg/terraaliens"
+          target="_blank"
+        >
+          <Typography>Join us!</Typography>
         </Button>
       </div>
       <div className={classes.rightSection}>

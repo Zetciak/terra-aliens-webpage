@@ -28,6 +28,15 @@ const useStyles = makeStyles({
     paddingLeft: '15px',
   },
 
+  panelSummary: {
+    '&.Mui-expanded': {
+      minHeight: 0,
+    },
+    '& .MuiAccordionSummary-content.Mui-expanded': {
+      marginTop: '11px',
+    },
+  },
+
   desc: {
     fontFamily: 'Montserrat',
     fontStyle: 'normal',
@@ -63,12 +72,15 @@ const useStyles = makeStyles({
     },
   },
 
+  //1155px
+  ['@media (max-width: 1155px)']: {
+    mainTitleTypography: {
+      fontSize: '38px',
+    },
+  },
+
   //1000px
   ['@media (max-width: 1000px)']: {
-    mainTitleTypography: {
-      fontSize: '40px',
-    },
-
     title: {
       fontSize: '28px',
       paddingTop: '15px',
@@ -82,12 +94,15 @@ const useStyles = makeStyles({
     },
   },
 
-  //750px
-  ['@media (max-width: 750px)']: {
+  //855px
+  ['@media (max-width: 855px)']: {
     mainTitleTypography: {
       fontSize: '32px',
     },
+  },
 
+  //750px
+  ['@media (max-width: 750px)']: {
     title: {
       fontSize: '25px',
       paddingTop: '18px',
@@ -101,12 +116,15 @@ const useStyles = makeStyles({
     },
   },
 
+  //690px
+  ['@media (max-width: 690px)']: {
+    mainTitleTypography: {
+      fontSize: '25px',
+    },
+  },
+
   //650px
   ['@media (max-width: 650px)']: {
-    mainTitleTypography: {
-      fontSize: '30px',
-    },
-
     title: {
       fontSize: '22px',
       paddingTop: '23px',
@@ -124,10 +142,6 @@ const useStyles = makeStyles({
   ['@media (max-width: 580px)']: {
     mainDiv: {
       marginTop: '55px',
-    },
-
-    mainTitleTypography: {
-      fontSize: '26px',
     },
 
     title: {
@@ -170,6 +184,13 @@ const useStyles = makeStyles({
       fontSize: '10px',
       marginTop: '-15px',
       paddingLeft: '15px',
+    },
+  },
+
+  //440px
+  ['@media (max-width: 440px)']: {
+    mainTitleTypography: {
+      fontSize: '20px',
     },
   },
 

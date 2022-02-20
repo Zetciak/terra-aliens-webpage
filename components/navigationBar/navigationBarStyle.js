@@ -9,6 +9,11 @@ const useStyles = makeStyles({
     background: 'transparent',
   },
 
+  rightElementsElement: {
+    width: '40px',
+    height: '40px',
+  },
+
   toolBar: {
     width: '100%',
     margin: '0 auto',
@@ -28,7 +33,7 @@ const useStyles = makeStyles({
       '& li': {
         fontFamily: 'Montserrat',
         fontStyle: 'normal',
-        fontWeight: '300',
+        fontWeight: '400',
         fontSize: '14px',
         lineHeight: '200%',
         display: 'inline-block',
@@ -85,6 +90,19 @@ const useStyles = makeStyles({
       height: 'auto',
       marginTop: '3px',
       marginLeft: '20px',
+    },
+
+    rightElementsElement: {
+      width: '30px',
+      height: '30px',
+    },
+  },
+
+  //425px
+  ['@media (max-width: 425px)']: {
+    rightElementsElement: {
+      width: '25px',
+      height: '25px',
     },
   },
 
