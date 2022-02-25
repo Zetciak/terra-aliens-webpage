@@ -5,7 +5,7 @@ import Image from 'next/image';
 //Images
 import logo from '../../public/images/fotLogo.svg';
 import rightDiscord from '../../public/images/rightDiscord.svg';
-import rightInstagram from '../../public/images/rightInstagram.svg';
+import rightMedium from '../../public/images/rightMedium.svg';
 import rightTwitter from '../../public/images/rightTwitter.svg';
 
 //CSS
@@ -77,8 +77,8 @@ function Footer() {
                 <a href="https://google.com">
                   <div className={classes.rightElementsElement}>
                     <Image
-                      src={rightInstagram}
-                      alt="Instagram"
+                      src={rightMedium}
+                      alt="Medium"
                       width="100%"
                       height="100%"
                     />

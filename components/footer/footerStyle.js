@@ -16,6 +16,13 @@ const useStyles = makeStyles({
   rightElementsElement: {
     width: '32px',
     height: '32px',
+
+    opacity: '1',
+    transition: 'opacity .5s',
+
+    '&:hover': {
+      opacity: '0.7',
+    },
   },
 
   toolBar: {
@@ -38,7 +45,7 @@ const useStyles = makeStyles({
     fontFamily: 'Syne',
     fontStyle: 'normal',
     fontWeight: '400',
-    fontSize: '12px',
+    fontSize: '14px',
     lineHeight: '24px',
     color: 'rgba(255, 255, 255, 0.75)',
     marginLeft: '22px',
@@ -48,7 +55,7 @@ const useStyles = makeStyles({
     fontFamily: 'Syne',
     fontStyle: 'normal',
     fontWeight: '400',
-    fontSize: '12px',
+    fontSize: '14px',
     lineHeight: '24px',
     color: 'rgba(255, 255, 255, 0.75)',
   },
@@ -91,6 +98,17 @@ const useStyles = makeStyles({
     },
   },
 
+  //800px
+  ['@media (max-width: 800px)']: {
+    leftTypography: {
+      fontSize: '12px',
+    },
+
+    centerTypography: {
+      fontSize: '12px',
+    },
+  },
+
   //720px
   ['@media (max-width: 720px)']: {
     centerElements: {
@@ -109,8 +127,8 @@ const useStyles = makeStyles({
   //550px
   ['@media (max-width: 550px)']: {
     rightElementsElement: {
-      width: '48px',
-      height: '48px',
+      width: '38px',
+      height: '38px',
     },
   },
 

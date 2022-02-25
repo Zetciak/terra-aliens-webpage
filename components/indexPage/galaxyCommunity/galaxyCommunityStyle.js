@@ -103,12 +103,12 @@ const useStyles = makeStyles({
     marginTop: '4px',
   },
 
-  rightSectionBtnIconIns: {
+  rightSectionBtnIconMed: {
     marginRight: '8px',
-    marginTop: '8px',
+    marginTop: '0px',
   },
 
-  instaUpper: {
+  mediumUpper: {
     marginTop: '-2px',
   },
 
@@ -185,6 +185,10 @@ const useStyles = makeStyles({
       fontSize: '23px',
     },
 
+    rightSectionBtnIconMed: {
+      marginTop: '-3px',
+    },
+
     rightSectionBtn: {
       marginTop: '15px',
       minWidth: '0',
@@ -237,13 +241,13 @@ const useStyles = makeStyles({
       width: '12px',
     },
 
-    rightSectionBtnIconIns: {
+    rightSectionBtnIconMed: {
       marginRight: '8px',
-      marginTop: '0px',
+      marginTop: '-3px',
       width: '12px',
     },
 
-    instaUpper: {
+    mediumUpper: {
       marginTop: '-1px',
     },
 

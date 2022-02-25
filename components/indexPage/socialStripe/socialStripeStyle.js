@@ -77,12 +77,12 @@ const useStyles = makeStyles({
     marginTop: '4px',
   },
 
-  rightSectionBtnIconIns: {
-    marginRight: '8px',
-    marginTop: '8px',
+  rightSectionBtnIconMed: {
+    marginRight: '9px',
+    marginTop: '-1px',
   },
 
-  instaUpper: {
+  mediumUpper: {
     marginTop: '-1px',
   },
 
@@ -159,20 +159,20 @@ const useStyles = makeStyles({
       marginTop: '-10px',
     },
 
-    instaUpper: {
-      marginTop: '-3px',
+    mediumUpper: {
+      marginTop: '-2px',
     },
 
     twitterUpper: {
       marginTop: '-1px',
     },
 
-    rightSectionBtnIconIns: {
-      marginTop: '6px',
-    },
-
     rightSectionBtnIconDc: {
       marginTop: '5px',
+    },
+
+    rightSectionBtnIconMed: {
+      marginTop: '-2px',
     },
   },
 
@@ -248,11 +248,11 @@ const useStyles = makeStyles({
       marginTop: '-1px',
     },
 
-    rightSectionBtnIconIns: {
-      width: '13px',
+    rightSectionBtnIconMed: {
+      width: '10px',
       height: 'auto',
       marginRight: '5px',
-      marginTop: '2px',
+      marginTop: '-3px',
     },
   },
 
@@ -286,11 +286,15 @@ const useStyles = makeStyles({
       marginTop: '-1px',
     },
 
-    rightSectionBtnIconIns: {
-      width: '11px',
+    rightSectionBtnIconMed: {
+      width: '9px',
       height: 'auto',
       marginRight: '5px',
-      marginTop: '2px',
+      marginTop: '-2px',
+    },
+
+    mediumUpper: {
+      marginTop: '1px',
     },
   },
 
@@ -320,14 +324,14 @@ const useStyles = makeStyles({
       marginTop: '-1px',
     },
 
-    rightSectionBtnIconIns: {
-      width: '11px',
+    rightSectionBtnIconMed: {
+      width: '8px',
       height: 'auto',
       marginRight: '5px',
-      marginTop: '2px',
+      marginTop: '-4px',
     },
 
-    instaUpper: {
+    mediumUpper: {
       marginTop: '1px',
     },
   },

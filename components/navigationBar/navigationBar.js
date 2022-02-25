@@ -1,13 +1,13 @@
 //Imports
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from 'react-scroll';
 import React, { useState, useEffect } from 'react';
 
 //Images
 import logo from '../../public/images/navLogo.svg';
 import rightDiscord from '../../public/images/rightDiscord.svg';
-import rightInstagram from '../../public/images/rightInstagram.svg';
+import rightMedium from '../../public/images/rightMedium.svg';
 import rightTwitter from '../../public/images/rightTwitter.svg';
 
 //Icons
@@ -51,19 +51,29 @@ function NavigationBar() {
               <div className={classes.centerElements}>
                 <ul>
                   <li onClick={changeNavVisible}>
-                    <Link href="#">About us</Link>
+                    <Link to="aboutUsScroll" smooth={true}>
+                      About us
+                    </Link>
                   </li>
                   <li onClick={changeNavVisible}>
-                    <Link href="#">Aliens</Link>
+                    <Link to="artsScroll" smooth={true}>
+                      Aliens
+                    </Link>
                   </li>
                   <li onClick={changeNavVisible}>
-                    <Link href="#">Story</Link>
+                    <Link to="traitsScroll" smooth={true}>
+                      Our Traits
+                    </Link>
                   </li>
                   <li onClick={changeNavVisible}>
-                    <Link href="#">Wishlist</Link>
+                    <Link to="roadMapScroll" smooth={true}>
+                      Roadmap
+                    </Link>
                   </li>
                   <li onClick={changeNavVisible}>
-                    <Link href="#">Roadmap</Link>
+                    <Link to="faqScroll" smooth={true}>
+                      FAQ
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -107,8 +117,8 @@ function NavigationBar() {
                 <a href="https://google.com">
                   <div className={classes.rightElementsElement}>
                     <Image
-                      src={rightInstagram}
-                      alt="Instagram"
+                      src={rightMedium}
+                      alt="Medium"
                       width="100%"
                       height="100%"
                     />

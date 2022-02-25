@@ -12,6 +12,12 @@ const useStyles = makeStyles({
   rightElementsElement: {
     width: '40px',
     height: '40px',
+    opacity: '1',
+    transition: 'opacity .5s',
+
+    '&:hover': {
+      opacity: '0.7',
+    },
   },
 
   toolBar: {
@@ -42,7 +48,8 @@ const useStyles = makeStyles({
           color: '#FFFFFF',
           transition: 'color .5s',
           '&:hover': {
-            color: '#dddddd',
+            color: '#cccccc',
+            cursor: 'pointer',
           },
         },
       },

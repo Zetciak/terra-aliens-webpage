@@ -14,7 +14,7 @@ function FirstSection() {
   const classes = useStyles();
 
   return (
-    <div className={classes.mainDiv}>
+    <div className={classes.mainDiv} id="aboutUsScroll">
       <div className={classes.leftSection}>
         <Typography className={classes.leftSectionTitle}>
           Join the Invaders before the raid begins

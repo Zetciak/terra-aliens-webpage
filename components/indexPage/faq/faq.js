@@ -99,7 +99,7 @@ function Faq() {
   const classes = useStyles();
 
   return (
-    <div className={classes.mainDiv}>
+    <div className={classes.mainDiv} id="faqScroll">
       <div className={classes.mainTitle}>
         <Typography className={classes.mainTitleTypography}>FAQ</Typography>
       </div>

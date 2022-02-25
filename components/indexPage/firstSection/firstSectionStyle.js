@@ -28,8 +28,8 @@ const useStyles = makeStyles({
     fontFamily: 'Montserrat',
     fontStyle: 'normal',
     fontWeight: '400',
-    fontSize: '14px',
-    lineHeight: '200%',
+    fontSize: '16px',
+    lineHeight: '24px',
     color: 'rgba(255, 255, 255, 0.75);',
   },
 

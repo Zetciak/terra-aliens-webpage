@@ -14,7 +14,7 @@ function Traits() {
   const classes = useStyles();
 
   return (
-    <div className={classes.mainDiv}>
+    <div className={classes.mainDiv} id="traitsScroll">
       <div className={classes.topSection}>
         <Typography className={classes.topSectionTitle}>Our Traits</Typography>
         <div className={classes.traitsList}>

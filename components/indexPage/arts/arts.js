@@ -25,7 +25,7 @@ function Arts() {
 
   return (
     <>
-      <div className={classes.mainDiv}>
+      <div className={classes.mainDiv} id="artsScroll">
         <div className={classes.normalDiv}>
           <Image src={artsImg} alt="" />
         </div>

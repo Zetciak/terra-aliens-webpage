@@ -22,7 +22,7 @@ function Roadmap() {
   const classes = useStyles();
 
   return (
-    <div className={classes.mainDiv}>
+    <div className={classes.mainDiv} id="roadMapScroll">
       <div className={classes.titleDiv}>
         <Typography className={classes.titleTypography}>Road map</Typography>
       </div>
