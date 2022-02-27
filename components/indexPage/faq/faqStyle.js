@@ -26,6 +26,7 @@ const useStyles = makeStyles({
     color: '#ffffff',
     paddingTop: '13px',
     paddingLeft: '15px',
+    paddingRight: '15px',
   },
 
   panelSummary: {
@@ -46,6 +47,7 @@ const useStyles = makeStyles({
     color: 'rgba(255, 255, 255, 0.82)',
     marginTop: '-15px',
     paddingLeft: '15px',
+    paddingRight: '15px',
   },
 
   rightCornerIcon: {
@@ -85,12 +87,14 @@ const useStyles = makeStyles({
       fontSize: '28px',
       paddingTop: '15px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
 
     desc: {
       fontSize: '16px',
       marginTop: '-15px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
   },
 
@@ -114,12 +118,14 @@ const useStyles = makeStyles({
       fontSize: '25px',
       paddingTop: '23px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
 
     desc: {
       fontSize: '15px',
       marginTop: '-15px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
   },
 
@@ -129,12 +135,14 @@ const useStyles = makeStyles({
       fontSize: '23px',
       paddingTop: '15px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
 
     desc: {
       fontSize: '13px',
       marginTop: '-15px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
   },
 
@@ -160,12 +168,31 @@ const useStyles = makeStyles({
       fontSize: '21px',
       paddingTop: '17px',
       paddingLeft: '15px',
+      paddingRight: '15px',
     },
 
     desc: {
       fontSize: '12px',
       marginTop: '-15px',
       paddingLeft: '15px',
+      paddingRight: '15px',
+    },
+  },
+
+  //370px
+  ['@media (max-width: 370px)']: {
+    title: {
+      fontSize: '20px',
+      paddingTop: '17px',
+      paddingLeft: '10px',
+      paddingRight: '10px',
+    },
+
+    desc: {
+      fontSize: '11px',
+      marginTop: '-15px',
+      paddingLeft: '10px',
+      paddingRight: '10px',
     },
   },
 });
