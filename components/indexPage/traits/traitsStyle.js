@@ -14,6 +14,25 @@ const useStyles = makeStyles({
     marginBottom: '14px',
   },
 
+  mobileDiv: {
+    display: 'none',
+  },
+
+  oneSection: {
+    width: '202px',
+    height: '256px',
+  },
+
+  lastSection: {
+    width: '5px',
+    height: '256px',
+  },
+
+  artDiv: {
+    width: '202px',
+    height: '202px',
+  },
+
   bottomSection: {
     width: '100%',
     maxHeight: '374px',
@@ -28,6 +47,36 @@ const useStyles = makeStyles({
     lineHeight: '150%',
     color: '#ffffff',
     float: 'left',
+  },
+
+  mobileTitle: {
+    fontFamily: 'Syne',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '25px',
+    lineHeight: '150%',
+    color: '#ffffff',
+    marginBottom: '30px',
+    width: '100%',
+    textAlign: 'center',
+  },
+
+  traitTitleText: {
+    fontFamily: 'Syne',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '20px',
+    lineHeight: '150%',
+    color: '#ffffff',
+    marginBottom: '30px',
+    width: '100%',
+    textAlign: 'center',
+    marginTop: '5px',
+  },
+
+  traitTitle: {
+    width: '202px',
+    height: '54px',
   },
 
   traitsList: {
@@ -188,41 +237,33 @@ const useStyles = makeStyles({
     },
   },
 
+  //450px
+  ['@media (max-width: 450px)']: {
+    topSection: {
+      display: 'none',
+    },
+
+    bottomSection: {
+      display: 'none',
+    },
+
+    mobileDiv: {
+      display: 'block',
+    },
+  },
+
   //440px
   ['@media (max-width: 440px)']: {
     topSectionTitle: {
       fontSize: '20px',
     },
 
-    traitsList: {
-      '& ul': {
-        '& li': {
-          paddingLeft: '25px',
-          fontSize: '11px',
-        },
-        '& li:nth-child(1)': {
-          paddingLeft: '0px',
-        },
-      },
+    mobileTitle: {
+      fontSize: '20px',
     },
-  },
 
-  //390px
-  ['@media (max-width: 390px)']: {
-    traitsList: {
-      '& ul': {
-        marginTop: '25px',
-        '& li': {
-          display: 'inline-block',
-          width: '50%',
-          textAlign: 'center',
-          paddingLeft: '0px',
-          paddingTop: '7px',
-          fontSize: '17px',
-          lineHeight: '150%',
-          color: '#ffffff',
-        },
-      },
+    traitTitleText: {
+      fontSize: '16px',
     },
   },
 });

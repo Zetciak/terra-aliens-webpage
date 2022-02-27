@@ -7,6 +7,16 @@ const useStyles = makeStyles({
     margin: '0 auto',
   },
 
+  mainTitle: {
+    fontFamily: 'Syne',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '48px',
+    lineHeight: '150%',
+    color: '#ffffff',
+    marginBottom: '30px',
+  },
+
   mobileDiv: {
     display: 'none',
   },
@@ -88,6 +98,27 @@ const useStyles = makeStyles({
     },
   },
 
+  //1155px
+  ['@media (max-width: 1155px)']: {
+    mainTitle: {
+      fontSize: '38px',
+    },
+  },
+
+  //855px
+  ['@media (max-width: 855px)']: {
+    mainTitle: {
+      fontSize: '32px',
+    },
+  },
+
+  //690px
+  ['@media (max-width: 690px)']: {
+    mainTitle: {
+      fontSize: '25px',
+    },
+  },
+
   //450px
   ['@media (max-width: 450px)']: {
     normalDiv: {
@@ -96,6 +127,18 @@ const useStyles = makeStyles({
 
     mobileDiv: {
       display: 'block',
+    },
+
+    mainTitle: {
+      width: '100%',
+      textAlign: 'center',
+    },
+  },
+
+  //440px
+  ['@media (max-width: 440px)']: {
+    mainTitle: {
+      fontSize: '20px',
     },
   },
 });

@@ -111,7 +111,6 @@ function Faq() {
             key={id}
             onChange={handleChange(id)}
             square
-            disableGutters
           >
             <AccordionSummary
               className={classes.panelSummary}

@@ -187,6 +187,15 @@ const useStyles = makeStyles({
     },
   },
 
+  //450px
+  ['@media (max-width: 450px)']: {
+    mainTitleTypography: {
+      width: '100%',
+      textAlign: 'center',
+      marginBottom: '20px',
+    },
+  },
+
   //440px
   ['@media (max-width: 440px)']: {
     mainTitleTypography: {

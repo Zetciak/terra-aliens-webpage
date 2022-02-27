@@ -1,5 +1,6 @@
 //Imports
 import Image from 'next/image';
+import { Typography } from '@material-ui/core';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -26,6 +27,7 @@ function Arts() {
   return (
     <>
       <div className={classes.mainDiv} id="artsScroll">
+        <Typography className={classes.mainTitle}>Arts</Typography>
         <div className={classes.normalDiv}>
           <Image src={artsImg} alt="" />
         </div>
