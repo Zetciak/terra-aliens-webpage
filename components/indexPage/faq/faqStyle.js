@@ -101,21 +101,6 @@ const useStyles = makeStyles({
     },
   },
 
-  //750px
-  ['@media (max-width: 750px)']: {
-    title: {
-      fontSize: '25px',
-      paddingTop: '18px',
-      paddingLeft: '15px',
-    },
-
-    desc: {
-      fontSize: '14px',
-      marginTop: '-15px',
-      paddingLeft: '15px',
-    },
-  },
-
   //690px
   ['@media (max-width: 690px)']: {
     mainTitleTypography: {
@@ -126,47 +111,13 @@ const useStyles = makeStyles({
   //650px
   ['@media (max-width: 650px)']: {
     title: {
-      fontSize: '22px',
+      fontSize: '25px',
       paddingTop: '23px',
       paddingLeft: '15px',
     },
 
     desc: {
-      fontSize: '13px',
-      marginTop: '-15px',
-      paddingLeft: '15px',
-    },
-  },
-
-  //580px
-  ['@media (max-width: 580px)']: {
-    mainDiv: {
-      marginTop: '55px',
-    },
-
-    title: {
-      fontSize: '19px',
-      paddingTop: '23px',
-      paddingLeft: '15px',
-    },
-
-    desc: {
-      fontSize: '10px',
-      marginTop: '-15px',
-      paddingLeft: '15px',
-    },
-  },
-
-  //520px
-  ['@media (max-width: 580px)']: {
-    title: {
-      fontSize: '16px',
-      paddingTop: '28px',
-      paddingLeft: '15px',
-    },
-
-    desc: {
-      fontSize: '10px',
+      fontSize: '15px',
       marginTop: '-15px',
       paddingLeft: '15px',
     },
@@ -175,13 +126,13 @@ const useStyles = makeStyles({
   //460px
   ['@media (max-width: 460px)']: {
     title: {
-      fontSize: '14px',
-      paddingTop: '18px',
+      fontSize: '23px',
+      paddingTop: '15px',
       paddingLeft: '15px',
     },
 
     desc: {
-      fontSize: '10px',
+      fontSize: '13px',
       marginTop: '-15px',
       paddingLeft: '15px',
     },
@@ -206,30 +157,15 @@ const useStyles = makeStyles({
   //400px
   ['@media (max-width: 400px)']: {
     title: {
+      fontSize: '21px',
+      paddingTop: '17px',
+      paddingLeft: '15px',
+    },
+
+    desc: {
       fontSize: '12px',
-      paddingTop: '19px',
-      paddingLeft: '15px',
-    },
-
-    desc: {
-      fontSize: '10px',
       marginTop: '-15px',
       paddingLeft: '15px',
-    },
-  },
-
-  //360px
-  ['@media (max-width: 360px)']: {
-    title: {
-      fontSize: '11px',
-      paddingTop: '20px',
-      paddingLeft: '7px',
-    },
-
-    desc: {
-      fontSize: '9px',
-      marginTop: '-15px',
-      paddingLeft: '7px',
     },
   },
 });

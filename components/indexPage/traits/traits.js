@@ -30,12 +30,12 @@ function Traits() {
         <Typography className={classes.topSectionTitle}>Our Traits</Typography>
         <div className={classes.traitsList}>
           <ul>
+            <li>Origin</li>
+            <li>Clothes</li>
+            <li>Ellipse</li>
+            <li>Sphere</li>
+            <li>Mouth</li>
             <li>Eyes</li>
-            <li>Face</li>
-            <li>Hair</li>
-            <li>Hat</li>
-            <li>Accessory</li>
-            <li>Body</li>
           </ul>
         </div>
       </div>

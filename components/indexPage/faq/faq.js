@@ -43,7 +43,7 @@ const StyledAccordion = withStyles({
 
     //460px
     ['@media (max-width: 460px)']: {
-      minHeight: '74px',
+      minHeight: '85px',
     },
 
     '&:hover': {
