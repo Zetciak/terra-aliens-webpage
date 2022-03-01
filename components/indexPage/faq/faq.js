@@ -71,7 +71,7 @@ function Faq() {
     {
       id: 'faq22',
       title: 'When is mint and what is the price?',
-      desc: 'That is yet to be revealed. Test Public',
+      desc: 'That is yet to be revealed.',
     },
     {
       id: 'faq33',

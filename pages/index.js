@@ -28,6 +28,14 @@ function HomePage() {
       <Head>
         <title>Terra Aliens NFT</title>
       </Head>
+      <h1>Public deploy</h1>
+    </div>
+  );
+}
+
+//<Utilities />
+
+/*
       <NavigationBar />
       <FirstSection />
       <SocialStripe />
@@ -37,10 +45,6 @@ function HomePage() {
       <Faq />
       <GalaxyCommunity />
       <Footer />
-    </div>
-  );
-}
-
-//<Utilities />
+*/
 
 export default HomePage;
