@@ -28,7 +28,7 @@ function HomePage() {
       <Head>
         <title>Terra Aliens NFT</title>
       </Head>
-      <h1>Public deploy</h1>
+      <h1 className={classes.title}>Soooon my fren :]</h1>
     </div>
   );
 }
