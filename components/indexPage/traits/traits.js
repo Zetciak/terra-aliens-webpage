@@ -3,9 +3,8 @@ import { Typography } from '@material-ui/core';
 import Image from 'next/image';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
-import 'swiper/css/free-mode';
-import { FreeMode, Pagination } from 'swiper';
 
 //Images
 import traitsList from '../../../public/images/traitsList.png';
@@ -44,14 +43,8 @@ function Traits() {
       </div>
       <div className={classes.mobileDiv}>
         <Typography className={classes.mobileTitle}>Our traits</Typography>
-        <Swiper
-          slidesPerView={1.8}
-          spaceBetween={'40%'}
-          freeMode={true}
-          modules={[FreeMode]}
-          className={classes.swiperDiv}
-        >
-          <SwiperSlide className={classes.oneSection}>
+        <Swiper slidesPerView={1.4} spaceBetween={50}>
+          <SwiperSlide>
             <div className={classes.artDiv}>
               <Image
                 src={trait1}
@@ -64,10 +57,12 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>Origin</Typography>
+              <Typography className={classes.traitTitleText}>
+                Trait 1
+              </Typography>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide>
             <div className={classes.artDiv}>
               <Image
                 src={trait2}
@@ -81,11 +76,11 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Clothes
+                Trait 2
               </Typography>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide>
             <div className={classes.artDiv}>
               <Image
                 src={trait3}
@@ -99,11 +94,11 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Ellipse
+                Trait 3
               </Typography>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide>
             <div className={classes.artDiv}>
               <Image
                 src={trait4}
@@ -116,10 +111,12 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>Sphere</Typography>
+              <Typography className={classes.traitTitleText}>
+                Trait 4
+              </Typography>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide>
             <div className={classes.artDiv}>
               <Image
                 src={trait5}
@@ -132,10 +129,12 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>Mouth</Typography>
+              <Typography className={classes.traitTitleText}>
+                Trait 5
+              </Typography>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide>
             <div className={classes.artDiv}>
               <Image
                 src={trait6}
@@ -148,10 +147,11 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>Eyes</Typography>
+              <Typography className={classes.traitTitleText}>
+                Trait 6
+              </Typography>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.lastSection}></SwiperSlide>
         </Swiper>
       </div>
     </div>

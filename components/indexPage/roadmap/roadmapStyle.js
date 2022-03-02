@@ -61,6 +61,18 @@ const useStyles = makeStyles({
     marginRight: '0px',
   },
 
+  hiddenSlide6: {
+    display: 'none',
+    width: '50px',
+    marginRight: '0px',
+  },
+
+  hiddenSlide7: {
+    display: 'none',
+    width: '50px',
+    marginRight: '0px',
+  },
+
   oneSection: {
     width: '480px',
     height: '617px',
@@ -88,21 +100,31 @@ const useStyles = makeStyles({
     height: '522px',
     top: '82px',
     left: '187px',
-    'z-index': '-1',
+    'z-index': '-2',
   },
 
-  firstSectionStripe: {
+  roadMapBgStripe: {
     position: 'absolute',
-    background: 'url(https://i.imgur.com/G0rdRMY.png)',
+    background: 'url(https://i.imgur.com/irenmXv.png)',
     backgroundSize: 'cover',
-    width: '540px',
-    height: '210px',
+    width: '1610px',
+    height: '211px',
     top: '395px',
     left: '-70px',
+    'z-index': '1',
+    opacity: '0.6',
   },
 
   secondSection: {
     marginTop: '13px',
+  },
+
+  secondSlideMove: {
+    marginLeft: '55px',
+  },
+
+  thirdSlideMove: {
+    marginLeft: '0px',
   },
 
   secondSectionBackground: {
@@ -113,17 +135,7 @@ const useStyles = makeStyles({
     height: '522px',
     top: '2px',
     left: '137px',
-    'z-index': '-1',
-  },
-
-  secondSectionStripe: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/Tvuan9b.png)',
-    backgroundSize: 'cover',
-    width: '540px',
-    height: '210px',
-    top: '394px',
-    left: '-88px',
+    'z-index': '-2',
   },
 
   thirdSection: {
@@ -138,18 +150,8 @@ const useStyles = makeStyles({
     height: '522px',
     top: '32px',
     left: '137px',
-    'z-index': '-1',
+    'z-index': '-2',
     opacity: '0.8',
-  },
-
-  thirdSectionStripe: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/4NVqmFM.png)',
-    backgroundSize: 'cover',
-    width: '540px',
-    height: '210px',
-    top: '394px',
-    left: '-102px',
   },
 
   descText: {
@@ -159,7 +161,6 @@ const useStyles = makeStyles({
     fontSize: '14px',
     lineHeight: '200%',
     color: '#ffffff',
-    opacity: '0.6',
   },
 
   descTextWidth: {
@@ -189,11 +190,6 @@ const useStyles = makeStyles({
     marginTop: '8px',
     marginLeft: '16px',
     marginRight: '16px',
-    opacity: '0.6',
-  },
-
-  activePhase: {
-    opacity: '1.0',
   },
 
   //<<<<<<<<<<<<<<<<<<<< Responsive scale
@@ -202,6 +198,17 @@ const useStyles = makeStyles({
   ['@media (max-width: 1500px)']: {
     roadMapDiv: {
       marginLeft: '30px',
+    },
+  },
+
+  //1485px
+  ['@media (max-width: 1485px)']: {
+    secondSlideMove: {
+      marginLeft: '35px',
+    },
+
+    thirdSlideMove: {
+      marginLeft: '-25px',
     },
   },
 
@@ -217,14 +224,9 @@ const useStyles = makeStyles({
       width: '100%',
     },
 
-    secondSectionStripe: {
-      top: '391px',
-      left: '-89px',
-    },
-
-    thirdSectionStripe: {
-      top: '391px',
-      left: '-97px',
+    roadMapBgStripe: {
+      width: '1430px',
+      height: '211px',
     },
   },
 
@@ -240,15 +242,7 @@ const useStyles = makeStyles({
       display: 'none',
     },
 
-    firstSectionStripe: {
-      display: 'none',
-    },
-
-    secondSectionStripe: {
-      display: 'none',
-    },
-
-    thirdSectionStripe: {
+    roadMapBgStripe: {
       display: 'none',
     },
 
@@ -281,6 +275,29 @@ const useStyles = makeStyles({
     oneSection: {
       height: '530px',
     },
+
+    secondSlideMove: {
+      marginLeft: '30px',
+    },
+
+    thirdSlideMove: {
+      marginLeft: '30px',
+    },
+  },
+
+  //1400px
+  ['@media (max-width: 1400px)']: {
+    hiddenSlide1: {
+      display: 'block',
+    },
+
+    secondSlideMove: {
+      marginLeft: '50px',
+    },
+
+    thirdSlideMove: {
+      marginLeft: '50px',
+    },
   },
 
   //1300px
@@ -303,6 +320,10 @@ const useStyles = makeStyles({
     hiddenSlide1: {
       display: 'block',
     },
+
+    hiddenSlide2: {
+      display: 'block',
+    },
   },
 
   //900px
@@ -311,7 +332,7 @@ const useStyles = makeStyles({
       marginRight: '250px',
     },
 
-    hiddenSlide2: {
+    hiddenSlide3: {
       display: 'block',
     },
   },
@@ -320,6 +341,17 @@ const useStyles = makeStyles({
   ['@media (max-width: 855px)']: {
     titleTypography: {
       fontSize: '32px',
+    },
+  },
+
+  //770px
+  ['@media (max-width: 770px)']: {
+    oneSection: {
+      marginRight: '250px',
+    },
+
+    hiddenSlide4: {
+      display: 'block',
     },
   },
 
@@ -334,10 +366,6 @@ const useStyles = makeStyles({
   ['@media (max-width: 650px)']: {
     oneSection: {
       marginRight: '350px',
-    },
-
-    hiddenSlide3: {
-      display: 'block',
     },
   },
 
@@ -362,6 +390,13 @@ const useStyles = makeStyles({
 
     oneSection: {
       marginRight: '200px',
+    },
+  },
+
+  //570px
+  ['@media (max-width: 570px)']: {
+    hiddenSlide5: {
+      display: 'block',
     },
   },
 
@@ -396,8 +431,11 @@ const useStyles = makeStyles({
       height: '550px',
       marginRight: '220px',
     },
+  },
 
-    hiddenSlide4: {
+  //480px
+  ['@media (max-width: 480px)']: {
+    hiddenSlide6: {
       display: 'block',
     },
   },
@@ -433,12 +471,15 @@ const useStyles = makeStyles({
       marginRight: '200px',
     },
 
-    hiddenSlide5: {
-      display: 'block',
-    },
-
     roadMapDiv: {
       marginLeft: '20px',
+    },
+  },
+
+  //380px
+  ['@media (max-width: 380px)']: {
+    hiddenSlide7: {
+      display: 'block',
     },
   },
 

@@ -4,8 +4,6 @@ import { Typography } from '@material-ui/core';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/free-mode';
-import { FreeMode, Pagination } from 'swiper';
 
 //Images
 import artsImg from '../../../public/images/arts.png';
@@ -32,14 +30,8 @@ function Arts() {
           <Image src={artsImg} alt="" />
         </div>
         <div className={classes.mobileDiv}>
-          <Swiper
-            slidesPerView={1.8}
-            spaceBetween={'40%'}
-            freeMode={true}
-            modules={[FreeMode]}
-            className={classes.swiperDiv}
-          >
-            <SwiperSlide className={classes.oneSection}>
+          <Swiper slidesPerView={1.4} spaceBetween={50}>
+            <SwiperSlide>
               <div className={classes.artDiv}>
                 <Image
                   src={artImg1}
@@ -53,7 +45,7 @@ function Arts() {
               </div>
               <div className={classes.artGradient1}></div>
             </SwiperSlide>
-            <SwiperSlide className={classes.oneSection}>
+            <SwiperSlide>
               <div className={classes.artDiv}>
                 <Image
                   src={artImg2}
@@ -67,7 +59,7 @@ function Arts() {
               </div>
               <div className={classes.artGradient2}></div>
             </SwiperSlide>
-            <SwiperSlide className={classes.oneSection}>
+            <SwiperSlide>
               <div className={classes.artDiv}>
                 <Image
                   src={artImg3}
@@ -81,7 +73,7 @@ function Arts() {
               </div>
               <div className={classes.artGradient3}></div>
             </SwiperSlide>
-            <SwiperSlide className={classes.oneSection}>
+            <SwiperSlide>
               <div className={classes.artDiv}>
                 <Image
                   src={artImg4}
@@ -95,7 +87,7 @@ function Arts() {
               </div>
               <div className={classes.artGradient4}></div>
             </SwiperSlide>
-            <SwiperSlide className={classes.oneSection}>
+            <SwiperSlide>
               <div className={classes.artDiv}>
                 <Image
                   src={artImg5}
@@ -109,7 +101,7 @@ function Arts() {
               </div>
               <div className={classes.artGradient5}></div>
             </SwiperSlide>
-            <SwiperSlide className={classes.oneSection}>
+            <SwiperSlide>
               <div className={classes.artDiv}>
                 <Image
                   src={artImg6}
@@ -123,7 +115,6 @@ function Arts() {
               </div>
               <div className={classes.artGradient6}></div>
             </SwiperSlide>
-            <SwiperSlide className={classes.lastSection}></SwiperSlide>
           </Swiper>
         </div>
       </div>

@@ -20,7 +20,7 @@ function Roadmap() {
       </div>
       <div className={classes.roadMapDiv}>
         <Swiper
-          slidesPerView={2.6}
+          slidesPerView={3}
           //initialSlide={1}
           spaceBetween={0}
           freeMode={true}
@@ -30,25 +30,22 @@ function Roadmap() {
           <SwiperSlide className={classes.oneSection}>
             <div className={classes.firstSection}>
               <div className={classes.firstSectionBackground}></div>
-              <div className={classes.firstSectionStripe}></div>
               <div className={classes.actualPhase}></div>
               <div className={classes.phaseTitle}>
                 <Typography
-                  className={`${classes.descText} ${classes.floatLeft} ${classes.activePhase}`}
+                  className={`${classes.descText} ${classes.floatLeft}`}
                 >
                   PHASE 1
                 </Typography>
                 <div
-                  className={`${classes.descTitleSquare} ${classes.floatLeft} ${classes.activePhase}`}
+                  className={`${classes.descTitleSquare} ${classes.floatLeft}`}
                 ></div>
-                <Typography
-                  className={`${classes.descText} ${classes.activePhase}`}
-                >
+                <Typography className={`${classes.descText}`}>
                   Gathering
                 </Typography>
               </div>
               <Typography
-                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} ${classes.activePhase}`}
+                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
               >
                 Only the Chosen shall ever join our ranks. Numerous alliances
                 have already been formed and each of them will be announced at
@@ -59,28 +56,28 @@ function Roadmap() {
               <ul className={classes.bottomDesc}>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} ${classes.activePhase}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
                   >
                     Early Community Building
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} ${classes.activePhase}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
                   >
                     NFT and Roadmap Reveal
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} ${classes.activePhase}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
                   >
                     Giveaways and Partnerships
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} ${classes.activePhase}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
                   >
                     Mint details revealed
                   </Typography>
@@ -88,10 +85,11 @@ function Roadmap() {
               </ul>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide
+            className={`${classes.oneSection} ${classes.secondSlideMove}`}
+          >
             <div className={classes.secondSection}>
               <div className={classes.secondSectionBackground}></div>
-              <div className={classes.secondSectionStripe}></div>
               <div className={classes.phaseTitle}>
                 <Typography
                   className={`${classes.descText} ${classes.floatLeft}`}
@@ -154,10 +152,11 @@ function Roadmap() {
               </ul>
             </div>
           </SwiperSlide>
-          <SwiperSlide className={classes.oneSection}>
+          <SwiperSlide
+            className={`${classes.oneSection} ${classes.thirdSlideMove}`}
+          >
             <div className={classes.thirdSection}>
               <div className={classes.thirdSectionBackground}></div>
-              <div className={classes.thirdSectionStripe}></div>
               <div className={classes.phaseTitle}>
                 <Typography
                   className={`${classes.descText} ${classes.floatLeft}`}
@@ -226,12 +225,14 @@ function Roadmap() {
               </ul>
             </div>
           </SwiperSlide>
-          <SwiperSlide></SwiperSlide>
           <SwiperSlide className={classes.hiddenSlide1}></SwiperSlide>
           <SwiperSlide className={classes.hiddenSlide2}></SwiperSlide>
           <SwiperSlide className={classes.hiddenSlide3}></SwiperSlide>
           <SwiperSlide className={classes.hiddenSlide4}></SwiperSlide>
           <SwiperSlide className={classes.hiddenSlide5}></SwiperSlide>
+          <SwiperSlide className={classes.hiddenSlide6}></SwiperSlide>
+          <SwiperSlide className={classes.hiddenSlide7}></SwiperSlide>
+          <div className={classes.roadMapBgStripe}></div>
         </Swiper>
       </div>
     </div>
