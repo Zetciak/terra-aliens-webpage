@@ -22,7 +22,7 @@ function GalaxyCommunity() {
         <div className={classes.bgDiv}></div>
         <div className={classes.centerDiv}>
           <div className={classes.imageDiv}>
-            <Image src={bottomImage} alt="" />
+            <Image src={bottomImage} alt="" width="100%" height="100%"/>
           </div>
           <div className={classes.buttonsDiv}>
             <Typography className={classes.socialsTitle}>
