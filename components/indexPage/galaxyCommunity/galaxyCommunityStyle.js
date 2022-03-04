@@ -34,7 +34,6 @@ const useStyles = makeStyles({
     position: 'absolute',
     bottom: '-1',
     width: '40%',
-    height: 'auto',
   },
 
   buttonsDiv: {
