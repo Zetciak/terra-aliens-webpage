@@ -35,9 +35,6 @@ const useStyles = makeStyles({
     bottom: '-1',
     width: '40%',
     height: 'auto',
-    background: 'url(https://i.imgur.com/gEW0g4c.png)',
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
   },
 
   buttonsDiv: {
