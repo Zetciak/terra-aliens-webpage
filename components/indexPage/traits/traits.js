@@ -8,12 +8,12 @@ import 'swiper/css';
 
 //Images
 import traitsList from '../../../public/images/traitsList.png';
-import trait1 from '../../../public/images/traits/trait1.svg';
-import trait2 from '../../../public/images/traits/trait2.svg';
-import trait3 from '../../../public/images/traits/trait3.svg';
-import trait4 from '../../../public/images/traits/trait4.svg';
-import trait5 from '../../../public/images/traits/trait5.svg';
-import trait6 from '../../../public/images/traits/trait6.svg';
+import trait1 from '../../../public/images/traits/trait1.png';
+import trait2 from '../../../public/images/traits/trait2.png';
+import trait3 from '../../../public/images/traits/trait3.png';
+import trait4 from '../../../public/images/traits/trait4.png';
+import trait5 from '../../../public/images/traits/trait5.png';
+import trait6 from '../../../public/images/traits/trait6.png';
 
 //CSS
 import useStyles from './traitsStyle';
@@ -31,10 +31,10 @@ function Traits() {
           <ul>
             <li>Origin</li>
             <li>Clothes</li>
-            <li>Ellipse</li>
             <li>Sphere</li>
-            <li>Mouth</li>
             <li>Eyes</li>
+            <li>Mouth</li>
+            <li>Background</li>
           </ul>
         </div>
       </div>
@@ -58,7 +58,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Trait 1
+                Origin
               </Typography>
             </div>
           </SwiperSlide>
@@ -76,7 +76,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Trait 2
+              Clothes
               </Typography>
             </div>
           </SwiperSlide>
@@ -94,7 +94,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Trait 3
+              Sphere
               </Typography>
             </div>
           </SwiperSlide>
@@ -112,7 +112,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Trait 4
+              Eyes
               </Typography>
             </div>
           </SwiperSlide>
@@ -130,7 +130,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Trait 5
+              Mouth
               </Typography>
             </div>
           </SwiperSlide>
@@ -148,7 +148,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-                Trait 6
+              Background
               </Typography>
             </div>
           </SwiperSlide>
