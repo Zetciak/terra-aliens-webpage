@@ -57,9 +57,7 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>
-                Origin
-              </Typography>
+              <Typography className={classes.traitTitleText}>Origin</Typography>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -76,7 +74,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-              Clothes
+                Clothes
               </Typography>
             </div>
           </SwiperSlide>
@@ -93,9 +91,7 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>
-              Sphere
-              </Typography>
+              <Typography className={classes.traitTitleText}>Sphere</Typography>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -111,9 +107,7 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>
-              Eyes
-              </Typography>
+              <Typography className={classes.traitTitleText}>Eyes</Typography>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -129,9 +123,7 @@ function Traits() {
               />
             </div>
             <div className={classes.traitTitle}>
-              <Typography className={classes.traitTitleText}>
-              Mouth
-              </Typography>
+              <Typography className={classes.traitTitleText}>Mouth</Typography>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -148,7 +140,7 @@ function Traits() {
             </div>
             <div className={classes.traitTitle}>
               <Typography className={classes.traitTitleText}>
-              Background
+                Background
               </Typography>
             </div>
           </SwiperSlide>
