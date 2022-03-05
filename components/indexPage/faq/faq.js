@@ -76,7 +76,7 @@ function Faq() {
     {
       id: 'faq33',
       title: 'How to contact the team?',
-      desc: 'You can always chat with us at our Discord server! \nAlso, you can find us on Twitter @TerraAliensNFT',
+      desc: 'You can always chat with us at our Discord server! \nAlso, you can find us on Twitter ',
     },
     {
       id: 'faq44',
@@ -139,6 +139,18 @@ function Faq() {
                     className={classes.discordHref}
                   >
                     our Discord.
+                  </a>
+                </Typography>
+              ) : id == 'faq33' ? (
+                <Typography className={classes.desc}>
+                  {desc}
+                  <a
+                    href="https://twitter.com/TerraAliensNFT"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={classes.discordHref}
+                  >
+                    @TerraAliensNFT
                   </a>
                 </Typography>
               ) : (
