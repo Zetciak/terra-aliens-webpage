@@ -33,19 +33,19 @@ function Roadmap() {
               <div className={classes.actualPhase}></div>
               <div className={classes.phaseTitle}>
                 <Typography
-                  className={`${classes.descText} ${classes.floatLeft}`}
+                  className={`${classes.descText} ${classes.floatLeft} swiper-no-swiping`}
                 >
                   PHASE 1
                 </Typography>
                 <div
                   className={`${classes.descTitleSquare} ${classes.floatLeft}`}
                 ></div>
-                <Typography className={`${classes.descText}`}>
+                <Typography className={`${classes.descText} swiper-no-swiping`}>
                   Gathering
                 </Typography>
               </div>
               <Typography
-                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
               >
                 Only the Chosen shall ever join our ranks. Numerous alliances
                 have already been formed and each of them will be announced at
@@ -56,28 +56,28 @@ function Roadmap() {
               <ul className={classes.bottomDesc}>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Early Community Building
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     NFT and Roadmap Reveal
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Giveaways and Partnerships
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Mint details revealed
                   </Typography>
@@ -92,19 +92,19 @@ function Roadmap() {
               <div className={classes.secondSectionBackground}></div>
               <div className={classes.phaseTitle}>
                 <Typography
-                  className={`${classes.descText} ${classes.floatLeft}`}
+                  className={`${classes.descText} ${classes.floatLeft} swiper-no-swiping`}
                 >
                   PHASE 2
                 </Typography>
                 <div
                   className={`${classes.descTitleSquare} ${classes.floatLeft}`}
                 ></div>
-                <Typography className={`${classes.descText}`}>
+                <Typography className={`${classes.descText} swiper-no-swiping`}>
                   Identities
                 </Typography>
               </div>
               <Typography
-                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
               >
                 The time comes to decide who you want to be. Choose wisely. Your
                 old self must be left behind. What you have done in the past is
@@ -116,35 +116,35 @@ function Roadmap() {
               <ul className={classes.bottomDesc}>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     First AMA
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Introduction of the holders benefits
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     The Mint goes live
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Discord game announcement
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     SpaceGear Drop for holders
                   </Typography>
@@ -159,19 +159,19 @@ function Roadmap() {
               <div className={classes.thirdSectionBackground}></div>
               <div className={classes.phaseTitle}>
                 <Typography
-                  className={`${classes.descText} ${classes.floatLeft}`}
+                  className={`${classes.descText} ${classes.floatLeft} swiper-no-swiping`}
                 >
                   PHASE 3
                 </Typography>
                 <div
                   className={`${classes.descTitleSquare} ${classes.floatLeft}`}
                 ></div>
-                <Typography className={`${classes.descText}`}>
+                <Typography className={`${classes.descText} swiper-no-swiping`}>
                   Invasion
                 </Typography>
               </div>
               <Typography
-                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
               >
                 The decisions have already been made. All of them have
                 consequences. Our mission starts now and this is the time to
@@ -182,42 +182,42 @@ function Roadmap() {
               <ul className={classes.bottomDesc}>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Rare NFT benefits revealed
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Rarity calculator
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     DAO formation including royalties sharing
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Charity Donation
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Collabs with other projects that will benefit our holders
                   </Typography>
                 </li>
                 <li className={classes.listLi}>
                   <Typography
-                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2}`}
+                    className={`${classes.descText} ${classes.descTextWidth} ${classes.descTextWidth2} swiper-no-swiping`}
                   >
                     Utilities reaching beyond the Virtual World
                   </Typography>

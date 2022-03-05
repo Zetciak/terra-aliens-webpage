@@ -112,7 +112,7 @@ const useStyles = makeStyles({
     top: '395px',
     left: '-70px',
     'z-index': '1',
-    opacity: '0.6',
+    opacity: '0.4',
   },
 
   secondSection: {

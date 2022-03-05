@@ -91,7 +91,7 @@ function Faq() {
     {
       id: 'faq66',
       title: 'How to get a WL spot?',
-      desc: 'Check #how-to-get-whitelisted channel at our Discord.',
+      desc: 'Check #how-to-get-whitelisted channel at ',
     },
   ];
 
@@ -129,7 +129,21 @@ function Faq() {
               <Typography className={classes.title}>{title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className={classes.desc}>{desc}</Typography>
+              {id == 'faq66' ? (
+                <Typography className={classes.desc}>
+                  {desc}
+                  <a
+                    href="https://discord.gg/terraaliens"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={classes.discordHref}
+                  >
+                    our Discord.
+                  </a>
+                </Typography>
+              ) : (
+                <Typography className={classes.desc}>{desc}</Typography>
+              )}
             </AccordionDetails>
           </StyledAccordion>
         );

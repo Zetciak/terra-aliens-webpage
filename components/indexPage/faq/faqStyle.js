@@ -50,6 +50,15 @@ const useStyles = makeStyles({
     paddingRight: '15px',
   },
 
+  discordHref: {
+    color: '#b18aff',
+    transition: 'color .5s',
+
+    '&:hover': {
+      color: '#cab0ff',
+    },
+  },
+
   rightCornerIcon: {
     width: '30px',
     height: '30px',
