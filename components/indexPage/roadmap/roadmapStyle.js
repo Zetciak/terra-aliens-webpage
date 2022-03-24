@@ -31,6 +31,7 @@ const useStyles = makeStyles({
 
 	mobileSlider: {
 		marginTop: '0px',
+		height: '100%',
 	},
 
 	desktopRoadMap: {
