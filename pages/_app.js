@@ -1,25 +1,37 @@
 //Imports
 import { CssBaseline } from '@material-ui/core';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import PageLoader from '../components/pageLoader/pageLoader';
 
 //CSS
 import '../styles/globals.css';
 
 //Script
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    const jssStyles = document.querySelector('#jss-server-side');
-    if (jssStyles) {
-      jssStyles.parentElement.removeChild(jssStyles);
-    }
-  }, []);
+	const [loading, setLoading] = useState(false);
 
-  return (
-    <div>
-      <CssBaseline />
-      <Component {...pageProps} />
-    </div>
-  );
+	useEffect(() => {
+		setLoading(true);
+		setTimeout(() => setLoading(false), 3000);
+
+		const jssStyles = document.querySelector('#jss-server-side');
+		if (jssStyles) {
+			jssStyles.parentElement.removeChild(jssStyles);
+		}
+	}, []);
+
+	return (
+		<>
+			{!loading ? (
+				<div>
+					<CssBaseline />
+					<Component {...pageProps} />
+				</div>
+			) : (
+				<PageLoader />
+			)}
+		</>
+	);
 }
 
 export default MyApp;
