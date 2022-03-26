@@ -13,14 +13,14 @@ function MyApp({ Component, pageProps }) {
 	const [loaded, setLoaded] = useState(false);
 
 	useEffect(() => {
-		setLoaded(true);
-		setLoading(true);
-		setTimeout(() => setLoading(false), 3000);
-
 		const jssStyles = document.querySelector('#jss-server-side');
 		if (jssStyles) {
 			jssStyles.parentElement.removeChild(jssStyles);
 		}
+
+		setLoaded(true);
+		setLoading(true);
+		setTimeout(() => setLoading(false), 3000);
 	}, []);
 
 	return (
