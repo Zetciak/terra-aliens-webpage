@@ -4,8 +4,8 @@ import dynamic from 'next/dynamic';
 
 //Components
 const NavigationBar = dynamic(
-  () => import('../components/navigationBar/navigationBar'),
-  { ssr: false }
+	() => import('../components/navigationBar/navigationBar'),
+	{ ssr: false }
 );
 import Footer from '../components/footer/footer';
 import FirstSection from '../components/indexPage/firstSection/firstSection';
@@ -22,23 +22,32 @@ import useStyles from '../components/indexPage/indexStyle';
 
 //Script
 function HomePage() {
-  const classes = useStyles();
-  return (
-    <div>
-      <Head>
-        <title>Terra Aliens NFT</title>
-      </Head>
-      <NavigationBar />
-      <FirstSection />
-      <SocialStripe />
-      <Arts />
-      <Traits />
-      <Roadmap />
-      <Faq />
-      <GalaxyCommunity />
-      <Footer />
-    </div>
-  );
+	const classes = useStyles();
+	return (
+		<div>
+			<Head>
+				<title>Terra Aliens NFT</title>
+				<meta
+					name="description"
+					content="Official site of Terra Aliens NFT on Terra! https://discord.gg/terraaliens"
+				/>
+				<meta
+					name="keywords"
+					content="LUNA,TERRA,UST,USDT,NFT,NFTPROJECT"
+				/>
+				<meta name="author" content="Zetty (dc: Zetty#0741)" />
+			</Head>
+			<NavigationBar />
+			<FirstSection />
+			<SocialStripe />
+			<Arts />
+			<Traits />
+			<Roadmap />
+			<Faq />
+			<GalaxyCommunity />
+			<Footer />
+		</div>
+	);
 }
 
 //<Utilities />
