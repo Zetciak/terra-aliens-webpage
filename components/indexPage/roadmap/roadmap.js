@@ -16,6 +16,7 @@ function Roadmap() {
 	// Phases elements
 	const phases = new Array();
 	phases[0] = new Array();
+	/*
 	phases[0][0] = 'Early Community Building';
 	phases[0][1] = 'NFT and Roadmap Reveal';
 	phases[0][2] = 'Giveaways and Partnerships';
@@ -56,6 +57,48 @@ function Roadmap() {
 	phases[3][2] = 'DAO - Incoming force reborn';
 	phases[3][3] = 'Materialization';
 	phases[3][4] = 'Aliens reborn';
+	*/
+
+	phases[0][0] = 'L3g43g4  3g434 grggrm';
+	phases[0][1] = 'Lo34g3 34g34g rgripsum';
+	phases[0][2] = 'ipsum Lorem';
+	phases[0][3] = 'asdasd asd3rf9we nufdun';
+	phases[0][4] = '3443ungf u344f3fnjer9j34 wfdeds';
+	phases[0][5] = '8s9df 9u7hsdf';
+
+	phases[1] = new Array();
+	phases[1][0] = 'n9hfg9un fsdg9ndsgf9 gdf';
+	phases[1][1] = '4t43g 34g34g g34g3g4';
+	phases[1][2] = 'asdadsa asd';
+	phases[1][3] = 'aaaaaaaaaaaa aaaaaat';
+	phases[1][4] = 'dddddddddddddd aaaaaaa';
+	phases[1][5] = 'a  asdasd aaaaaaaaa';
+	phases[1][6] = 'asdasddas asdasddd';
+	phases[1][7] = '6556h5 6h56h';
+	phases[1][8] = '65h 56hrghdfgh dfg';
+	phases[1][9] = 'dgfdgdfg fdgfdgr';
+
+	phases[2] = new Array();
+	phases[2][0] = 'dfg dfgdfgdfgdfgdfg';
+	phases[2][1] = ' dfgdfg dfgdfg dfgdfgdf';
+	phases[2][2] = ' dfgdfgdfgdfgdfgf';
+	phases[2][3] = ' dfgdfgfdggffggf ffff';
+	phases[2][4] = 'aaaaaaaa ssssssss cccc';
+	phases[2][5] = 'fh7dg9undf u89gdf8u9g8udfg0n8u dfgdfg';
+	phases[2][6] = 'aaaaaaaa fdasdsaor aaaaaaaa asdasads aaaaaaaa';
+	phases[2][7] = 'asddas asdads';
+	phases[2][8] = 'saasddasdsa fasdasdasdloor';
+	phases[2][9] = 'asdads - asdasdadsdas asddasdasdas';
+	phases[2][10] = 'Terra Aliens adsadsdas adsdas';
+	phases[2][11] = 'gsdsdg qqwe www qweqwe adsdas';
+	phases[2][12] = 'gsdsdg sgssdg asdasd';
+
+	phases[3] = new Array();
+	phases[3][0] = 'dasd asddas';
+	phases[3][1] = 'Beasddasdasta asdasd asdasd dd Alidasdasdens asdasd';
+	phases[3][2] = 'dasdasd - asdasd dddd asdasd';
+	phases[3][3] = 'Madasdterialization';
+	phases[3][4] = 'asdasd asdasd';
 
 	let phase1 = [];
 	let phase2 = [];
@@ -122,7 +165,7 @@ function Roadmap() {
 		<div className={classes.mainDiv} id="roadMapScroll">
 			<div className={classes.titleDiv}>
 				<Typography className={classes.titleTypography}>
-					Road Map
+					Road Map - soon!
 				</Typography>
 			</div>
 			<div className={classes.desktopRoadMap}>

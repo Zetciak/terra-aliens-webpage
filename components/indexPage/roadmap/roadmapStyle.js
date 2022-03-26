@@ -32,6 +32,7 @@ const useStyles = makeStyles({
 	mobileSlider: {
 		marginTop: '0px',
 		height: '100%',
+		filter: 'blur(5px)',
 	},
 
 	desktopRoadMap: {
@@ -67,6 +68,7 @@ const useStyles = makeStyles({
 		height: '8px',
 		background: '#483e57',
 		marginTop: '39px',
+		filter: 'blur(5px)',
 	},
 
 	desktopRoadMapStripeFill: {
@@ -82,6 +84,7 @@ const useStyles = makeStyles({
 		background: '#5b4f6a',
 		marginTop: '-21px',
 		marginLeft: '-1px',
+		filter: 'blur(5px)',
 	},
 
 	desktopRoadMapCircleFill: {
@@ -91,6 +94,7 @@ const useStyles = makeStyles({
 		background: '#ae82fc',
 		marginTop: '-21px',
 		marginLeft: '-1px',
+		filter: 'blur(5px)',
 	},
 
 	mobileRoadMapCircle: {
@@ -142,6 +146,7 @@ const useStyles = makeStyles({
 	listLi: {
 		color: 'white',
 		clear: 'both',
+		filter: 'blur(5px)',
 	},
 
 	phaseTitleTypo: {
@@ -152,6 +157,7 @@ const useStyles = makeStyles({
 		lineHeight: '200%',
 		color: '#ffffff',
 		float: 'left',
+		filter: 'blur(5px)',
 	},
 
 	phaseTitleBlock: {
@@ -162,6 +168,7 @@ const useStyles = makeStyles({
 		background: '#ffffff',
 		float: 'left',
 		marginTop: '7px',
+		filter: 'blur(5px)',
 	},
 
 	phaseDescTypo: {
@@ -173,6 +180,7 @@ const useStyles = makeStyles({
 		color: '#ffffff',
 		float: 'left',
 		marginTop: '-2px',
+		filter: 'blur(5px)',
 	},
 
 	//<<<<<<<<<<<<<<<<<<<< Responsive scale
