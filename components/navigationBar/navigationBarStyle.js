@@ -31,8 +31,10 @@ const useStyles = makeStyles({
 	},
 
 	logo: {
-		marginTop: '3px',
+		marginTop: '0px',
 		marginLeft: '20px',
+		width: '170px',
+		height: 'auto',
 	},
 
 	centerElements: {

@@ -44,7 +44,15 @@ function NavigationBar() {
 			<AppBar className={classes.appBar} elevation={0}>
 				<Toolbar className={classes.toolBar}>
 					<div className={classes.logo}>
-						<Image src={logo} alt="Logo" />
+						<Image
+							src={logo}
+							alt="Logo"
+							title=""
+							width="100%"
+							height="100%"
+							layout="responsive"
+							objectFit="contain"
+						/>
 					</div>
 					{screenW >= 1100 && (
 						<>
