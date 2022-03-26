@@ -32,7 +32,7 @@ function PageLoader() {
 						}}
 					></div>
 				</div>
-				<Typography className={classes.typoText}>{loading}%</Typography>
+				<p className={classes.typoText}>{loading}%</p>
 			</div>
 		</>
 	);
