@@ -1,6 +1,7 @@
 //CSS
 import useStyles from './pageLoaderStyle';
 import { useEffect, useState } from 'react';
+import { Typography } from '@material-ui/core';
 
 //Script
 function PageLoader() {
@@ -31,6 +32,7 @@ function PageLoader() {
 						}}
 					></div>
 				</div>
+				<Typography className={classes.typoText}>{loading}%</Typography>
 			</div>
 		</>
 	);

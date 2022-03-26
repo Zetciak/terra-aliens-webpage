@@ -12,7 +12,7 @@ const useStyles = makeStyles({
 		position: 'fixed',
 		top: '45%',
 		left: '50%',
-		transform: 'translate(-50%, -50%)',
+		transform: 'translate(-45%, -50%)',
 	},
 
 	image1: {
@@ -36,12 +36,30 @@ const useStyles = makeStyles({
 		'-webkit-transform': 'scaleY(-1)',
 	},
 
+	typoText: {
+		width: '300px',
+		position: 'fixed',
+		top: '45%',
+		left: '50%',
+		transform: 'translate(-55%, -50%)',
+		textAlign: 'center',
+		fontFamily: 'Montserrat',
+		fontStyle: 'normal',
+		fontWeight: '500',
+		fontSize: '24px',
+		color: '#ffffff',
+		marginTop: '175px',
+	},
+
 	//<<<<<<<<<<<<<<<<<<<< Responsive scale
 	//1440px
 	['@media (max-width: 1440px)']: {
 		imageDiv: {
 			width: '250px',
 			height: '250px',
+		},
+		typoText: {
+			marginTop: '145px',
 		},
 	},
 });
