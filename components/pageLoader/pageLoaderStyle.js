@@ -48,7 +48,7 @@ const useStyles = makeStyles({
 		fontWeight: '500',
 		fontSize: '24px',
 		color: '#ffffff',
-		marginTop: '175px',
+		marginTop: '176px',
 	},
 
 	//<<<<<<<<<<<<<<<<<<<< Responsive scale
