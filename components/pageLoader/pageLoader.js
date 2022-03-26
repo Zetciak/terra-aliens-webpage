@@ -32,7 +32,7 @@ function PageLoader() {
 						}}
 					></div>
 				</div>
-				<p className={classes.typoText}>{loading}%</p>
+				<p className={classes.typoText}>{loading}% a</p>
 			</div>
 		</>
 	);
