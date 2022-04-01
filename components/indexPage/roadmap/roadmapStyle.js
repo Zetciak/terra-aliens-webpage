@@ -22,6 +22,76 @@ const useStyles = makeStyles({
 		color: '#ffffff',
 	},
 
+	counterDiv: {
+		position: 'absolute',
+		width: '100%',
+		marginTop: '-400px',
+	},
+
+	counterBgDiv: {
+		background: 'rgba(18, 6, 33, 0.5)',
+		backdropFilter: 'blur(50px)',
+		borderRadius: '654654px',
+		width: '608px',
+		height: '78px',
+		margin: '0 auto',
+		marginTop: '16px',
+	},
+
+	minuteDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	secondDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	dayDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	hourDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	counterTitleTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '600',
+		fontSize: '48px',
+		lineHeight: '150%',
+		color: '#ffffff',
+		width: '100%',
+		textAlign: 'center',
+	},
+
+	counterDescTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '600',
+		fontSize: '24px',
+		lineHeight: '29px',
+		color: '#ffffff',
+		width: '100%',
+		textAlign: 'center',
+	},
+
 	mobileRoadMap: {
 		display: 'none',
 		height: '500px',
@@ -183,6 +253,41 @@ const useStyles = makeStyles({
 		filter: 'blur(5px)',
 	},
 
+	rightElementsElement: {
+		width: '30px',
+		height: '30px',
+		opacity: '1',
+		transition: 'opacity .5s',
+		background: 'url(https://i.imgur.com/ReWcC4E.png)',
+		backgroundSize: 'cover',
+
+		'&:hover': {
+			opacity: '0.7',
+		},
+	},
+
+	rightElements: {
+		width: '100%',
+		textAlign: 'center',
+		'& ul': {
+			'& li': {
+				display: 'inline-block',
+				paddingLeft: '25px',
+				paddingTop: '7px',
+				'& a': {
+					opacity: '1',
+					transition: 'opacity .5s',
+					'&:hover': {
+						opacity: '0.8',
+					},
+				},
+			},
+			'& li:nth-child(1)': {
+				paddingLeft: '0px',
+			},
+		},
+	},
+
 	//<<<<<<<<<<<<<<<<<<<< Responsive scale
 	//1440px
 	['@media (max-width: 1440px)']: {
@@ -226,6 +331,10 @@ const useStyles = makeStyles({
 		titleTypography: {
 			fontSize: '38px',
 		},
+
+		counterTitleTypography: {
+			fontSize: '38px',
+		},
 	},
 
 	//1000px
@@ -236,12 +345,67 @@ const useStyles = makeStyles({
 		titleTypography: {
 			fontSize: '32px',
 		},
+
+		counterTitleTypography: {
+			fontSize: '32px',
+		},
 	},
 
 	//690px
 	['@media (max-width: 690px)']: {
 		titleTypography: {
 			fontSize: '25px',
+		},
+
+		counterTitleTypography: {
+			fontSize: '25px',
+		},
+
+		counterBgDiv: {
+			width: '90%',
+		},
+
+		rightElements: {
+			width: '90%',
+		},
+
+		secondDiv: {
+			marginLeft: '0',
+			width: '28%',
+		},
+
+		dayDiv: {
+			marginLeft: '0',
+			width: '22%',
+		},
+
+		minuteDiv: {
+			marginLeft: '0',
+			width: '28%',
+		},
+
+		hourDiv: {
+			marginLeft: '0',
+			width: '22%',
+		},
+	},
+
+	//625px
+	['@media (max-width: 625px)']: {
+		minuteDiv: {
+			marginLeft: '0px',
+			width: '25%',
+		},
+
+		counterDescTypography: {
+			fontSize: '20px',
+		},
+	},
+
+	//510px
+	['@media (max-width: 510px)']: {
+		counterDescTypography: {
+			fontSize: '18px',
 		},
 	},
 
@@ -258,6 +422,26 @@ const useStyles = makeStyles({
 	['@media (max-width: 440px)']: {
 		titleTypography: {
 			fontSize: '20px',
+		},
+
+		counterTitleTypography: {
+			fontSize: '20px',
+		},
+	},
+
+	//420px
+	['@media (max-width: 420px)']: {
+		counterDescTypography: {
+			fontSize: '17px',
+			lineHeight: '22px',
+			marginTop: '5px',
+		},
+	},
+
+	//390px
+	['@media (max-width: 390px)']: {
+		counterDescTypography: {
+			fontSize: '15px',
 		},
 	},
 });

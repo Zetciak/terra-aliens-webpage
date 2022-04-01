@@ -3,12 +3,60 @@ import Image from 'next/image';
 import { Typography } from '@material-ui/core';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import { useEffect, useState } from 'react';
+
+// Images
+import rightDiscord from '../../../public/images/rightDiscord.svg';
+import rightMedium from '../../../public/images/rightMedium.svg';
+import rightTwitter from '../../../public/images/rightTwitter.svg';
 
 //CSS
 import useStyles from './roadmapStyle';
 
 //Script
 function Roadmap() {
+	//Timer
+	const [timerDays, setTimerDays] = useState();
+	const [timerHours, setTimerHours] = useState();
+	const [timerMinutes, setTimerMinutes] = useState();
+	const [timerSeconds, setTimerSeconds] = useState();
+
+	let interval;
+
+	const startTimer = () => {
+		const countDownDate = new Date('April 4, 2022 23:59:59').getTime();
+
+		interval = setInterval(() => {
+			const now = new Date().getTime();
+
+			const distance = countDownDate - now;
+
+			const days = Math.floor(distance / (24 * 60 * 60 * 1000));
+			const hours = Math.floor(
+				(distance % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
+			);
+			const minutes = Math.floor(
+				(distance % (60 * 60 * 1000)) / (1000 * 60)
+			);
+			const seconds = Math.floor((distance % (60 * 1000)) / 1000);
+
+			if (distance < 0) {
+				// Stop timer
+				clearInterval(interval.current);
+			} else {
+				// Update timer
+				setTimerDays(days);
+				setTimerHours(hours);
+				setTimerMinutes(minutes);
+				setTimerSeconds(seconds);
+			}
+		});
+	};
+
+	useEffect(() => {
+		startTimer();
+	});
+
 	//Style
 	const classes = useStyles();
 
@@ -59,46 +107,43 @@ function Roadmap() {
 	phases[3][4] = 'Aliens reborn';
 	*/
 
-	phases[0][0] = 'L3g43g4  3g434 grggrm';
-	phases[0][1] = 'Lo34g3 34g34g rgripsum';
-	phases[0][2] = 'ipsum Lorem';
-	phases[0][3] = 'asdasd asd3rf9we nufdun';
-	phases[0][4] = '3443ungf u344f3fnjer9j34 wfdeds';
-	phases[0][5] = '8s9df 9u7hsdf';
+	phases[0][0] = 'Never gonna give you up';
+	phases[0][1] = 'Never gonna let you down';
+	phases[0][2] = 'Never gonna run around and desert you';
+	phases[0][3] = 'Never gonna make you cry';
+	phases[0][4] = 'Never gonna let you down';
+	phases[0][5] = 'Never gonna give you up';
 
 	phases[1] = new Array();
-	phases[1][0] = 'n9hfg9un fsdg9ndsgf9 gdf';
-	phases[1][1] = '4t43g 34g34g g34g3g4';
-	phases[1][2] = 'asdadsa asd';
-	phases[1][3] = 'aaaaaaaaaaaa aaaaaat';
-	phases[1][4] = 'dddddddddddddd aaaaaaa';
-	phases[1][5] = 'a  asdasd aaaaaaaaa';
-	phases[1][6] = 'asdasddas asdasddd';
-	phases[1][7] = '6556h5 6h56h';
-	phases[1][8] = '65h 56hrghdfgh dfg';
-	phases[1][9] = 'dgfdgdfg fdgfdgr';
+	phases[1][0] = 'Never gonna give you up';
+	phases[1][1] = 'Never gonna let you down';
+	phases[1][2] = 'Never gonna run around and desert you';
+	phases[1][3] = 'Never gonna make you cry';
+	phases[1][4] = 'Never gonna give you up';
+	phases[1][5] = 'Never gonna let you down';
+	phases[1][6] = 'Never gonna make you cry';
+	phases[1][7] = 'Never gonna give you up';
+	phases[1][8] = 'Never gonna let you down';
+	phases[1][9] = 'Never gonna make you cry';
+	phases[1][10] = 'Never gonna give you up';
+	phases[1][11] = 'Never gonna let you down';
 
 	phases[2] = new Array();
-	phases[2][0] = 'dfg dfgdfgdfgdfgdfg';
-	phases[2][1] = ' dfgdfg dfgdfg dfgdfgdf';
-	phases[2][2] = ' dfgdfgdfgdfgdfgf';
-	phases[2][3] = ' dfgdfgfdggffggf ffff';
-	phases[2][4] = 'aaaaaaaa ssssssss cccc';
-	phases[2][5] = 'fh7dg9undf u89gdf8u9g8udfg0n8u dfgdfg';
-	phases[2][6] = 'aaaaaaaa fdasdsaor aaaaaaaa asdasads aaaaaaaa';
-	phases[2][7] = 'asddas asdads';
-	phases[2][8] = 'saasddasdsa fasdasdasdloor';
-	phases[2][9] = 'asdads - asdasdadsdas asddasdasdas';
-	phases[2][10] = 'Terra Aliens adsadsdas adsdas';
-	phases[2][11] = 'gsdsdg qqwe www qweqwe adsdas';
-	phases[2][12] = 'gsdsdg sgssdg asdasd';
+	phases[2][0] = 'Never gonna give you up';
+	phases[2][1] = 'Never gonna let you down';
+	phases[2][2] = 'Never gonna run around and desert you';
+	phases[2][3] = 'Never gonna make you cry';
+	phases[2][4] = 'Never gonna give you up';
+	phases[2][5] = 'Never gonna let you down';
+	phases[2][6] = 'Never gonna make you cry';
+	phases[2][7] = 'Never gonna give you up';
+	phases[2][8] = 'Never gonna let you down';
 
 	phases[3] = new Array();
-	phases[3][0] = 'dasd asddas';
-	phases[3][1] = 'Beasddasdasta asdasd asdasd dd Alidasdasdens asdasd';
-	phases[3][2] = 'dasdasd - asdasd dddd asdasd';
-	phases[3][3] = 'Madasdterialization';
-	phases[3][4] = 'asdasd asdasd';
+	phases[3][0] = 'Never gonna let you down';
+	phases[3][1] = 'Never gonna run around and desert you';
+	phases[3][2] = 'Never gonna make you cry';
+	phases[3][3] = 'Never gonna give you up';
 
 	let phase1 = [];
 	let phase2 = [];
@@ -285,6 +330,7 @@ function Roadmap() {
 					}}
 					spaceBetween={0}
 					className={classes.mobileSlider}
+					style={{ 'pointer-events': 'none' }}
 				>
 					<SwiperSlide>
 						<div className={classes.mobileRoadMapStripe}>
@@ -387,6 +433,93 @@ function Roadmap() {
 						<ul className={classes.phaseDesc}>{phase4}</ul>
 					</SwiperSlide>
 				</Swiper>
+			</div>
+			<div className={classes.counterDiv}>
+				<Typography className={classes.counterTitleTypography}>
+					Road map in:
+				</Typography>
+				<div className={classes.counterBgDiv}>
+					<div className={classes.dayDiv}>
+						<Typography className={classes.counterDescTypography}>
+							{timerDays}
+						</Typography>
+						<Typography className={classes.counterDescTypography}>
+							Days
+						</Typography>
+					</div>
+					<div className={classes.hourDiv}>
+						<Typography className={classes.counterDescTypography}>
+							{timerHours}
+						</Typography>
+						<Typography className={classes.counterDescTypography}>
+							Hours
+						</Typography>
+					</div>
+					<div className={classes.minuteDiv}>
+						<Typography className={classes.counterDescTypography}>
+							{timerMinutes}
+						</Typography>
+						<Typography className={classes.counterDescTypography}>
+							Minutes
+						</Typography>
+					</div>
+					<div className={classes.secondDiv}>
+						<Typography className={classes.counterDescTypography}>
+							{timerSeconds}
+						</Typography>
+						<Typography className={classes.counterDescTypography}>
+							Seconds
+						</Typography>
+					</div>
+				</div>
+				<div className={classes.rightElements}>
+					<ul>
+						<li>
+							<a
+								href="https://discord.gg/terraaliens"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<div className={classes.rightElementsElement}>
+									<Image
+										src={rightDiscord}
+										alt="Discord"
+										width="100%"
+										height="100%"
+									/>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://twitter.com/TerraAliensNFT"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<div className={classes.rightElementsElement}>
+									<Image
+										src={rightTwitter}
+										alt="Twitter"
+										width="100%"
+										height="100%"
+									/>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://google.com">
+								<div className={classes.rightElementsElement}>
+									<Image
+										src={rightMedium}
+										alt="Medium"
+										width="100%"
+										height="100%"
+									/>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);
