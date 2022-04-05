@@ -56,6 +56,8 @@ function GalaxyCommunity() {
 							<Button
 								variant="contained"
 								className={classes.rightSectionBtn}
+								href="https://medium.com/@terraaliens"
+								target="_blank"
 							>
 								<div className={classes.rightSectionBtnIconMed}>
 									<Image src={medium} alt="" />

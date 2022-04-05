@@ -24,7 +24,7 @@ function Roadmap() {
 	let interval;
 
 	const startTimer = () => {
-		const countDownDate = new Date('April 4, 2022 23:59:59').getTime();
+		const countDownDate = new Date('April 7, 2022 23:59:59').getTime();
 
 		interval = setInterval(() => {
 			const now = new Date().getTime();
@@ -434,7 +434,7 @@ function Roadmap() {
 					</SwiperSlide>
 				</Swiper>
 			</div>
-			<div className={classes.counterDiv}>
+			<div className={classes.counterDiv} style={{ display: 'none' }}>
 				<Typography className={classes.counterTitleTypography}>
 					Road map in:
 				</Typography>
@@ -507,7 +507,11 @@ function Roadmap() {
 							</a>
 						</li>
 						<li>
-							<a href="https://google.com">
+							<a
+								href="https://medium.com/@terraaliens"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<div className={classes.rightElementsElement}>
 									<Image
 										src={rightMedium}

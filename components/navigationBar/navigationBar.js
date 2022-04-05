@@ -126,7 +126,11 @@ function NavigationBar() {
 								</a>
 							</li>
 							<li onClick={changeNavVisible}>
-								<a href="https://google.com">
+								<a
+									href="https://medium.com/@terraaliens"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<div
 										className={classes.rightElementsElement}
 									>
