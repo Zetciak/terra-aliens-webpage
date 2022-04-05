@@ -1,461 +1,449 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-  mainDiv: {
-    marginTop: '100px',
-    width: '100%',
-  },
-
-  phaseTitle: {
-    width: '150%',
-  },
-
-  titleDiv: {
-    width: '1294px',
-    margin: '0 auto',
-    marginTop: '75px',
-    marginBottom: '30px',
-  },
-
-  roadMapDiv: {
-    width: '1440px',
-    margin: '0 auto',
-  },
-
-  titleTypography: {
-    fontFamily: 'Syne',
-    fontStyle: 'normal',
-    fontWeight: '600',
-    fontSize: '48px',
-    lineHeight: '150%',
-    color: '#ffffff',
-  },
-
-  hiddenSlide1: {
-    display: 'none',
-    width: '50px',
-    marginRight: '0px',
-  },
-
-  hiddenSlide2: {
-    display: 'none',
-    width: '50px',
-    marginRight: '0px',
-  },
-
-  hiddenSlide3: {
-    display: 'none',
-    width: '50px',
-    marginRight: '0px',
-  },
-
-  hiddenSlide4: {
-    display: 'none',
-    width: '50px',
-    marginRight: '0px',
-  },
-
-  hiddenSlide5: {
-    display: 'none',
-    width: '50px',
-    marginRight: '0px',
-  },
-
-  oneSection: {
-    width: '480px',
-    height: '617px',
-  },
-
-  actualPhase: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/FcDZWW9.png)',
-    backgroundSize: 'cover',
-    width: '32px',
-    height: '32px',
-    top: '484px',
-    left: '213px',
-  },
-
-  firstSection: {
-    marginTop: '93px',
-  },
-
-  firstSectionBackground: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/qlBXtuJ.png)',
-    backgroundSize: 'cover',
-    width: '260px',
-    height: '522px',
-    top: '82px',
-    left: '187px',
-    'z-index': '-1',
-  },
-
-  firstSectionStripe: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/G0rdRMY.png)',
-    backgroundSize: 'cover',
-    width: '540px',
-    height: '210px',
-    top: '395px',
-    left: '-70px',
-  },
-
-  secondSection: {
-    marginTop: '13px',
-  },
-
-  secondSectionBackground: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/EmMD4Bg.png)',
-    backgroundSize: 'cover',
-    width: '260px',
-    height: '522px',
-    top: '2px',
-    left: '137px',
-    'z-index': '-1',
-  },
-
-  secondSectionStripe: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/Tvuan9b.png)',
-    backgroundSize: 'cover',
-    width: '540px',
-    height: '210px',
-    top: '394px',
-    left: '-88px',
-  },
-
-  thirdSection: {
-    marginTop: '43px',
-  },
-
-  thirdSectionBackground: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/ihfmOvJ.png)',
-    backgroundSize: 'cover',
-    width: '260px',
-    height: '522px',
-    top: '32px',
-    left: '137px',
-    'z-index': '-1',
-    opacity: '0.8',
-  },
-
-  thirdSectionStripe: {
-    position: 'absolute',
-    background: 'url(https://i.imgur.com/4NVqmFM.png)',
-    backgroundSize: 'cover',
-    width: '540px',
-    height: '210px',
-    top: '394px',
-    left: '-102px',
-  },
-
-  descText: {
-    fontFamily: 'Montserrat',
-    fontStyle: 'normal',
-    fontWeight: '400',
-    fontSize: '14px',
-    lineHeight: '200%',
-    color: '#ffffff',
-    opacity: '0.6',
-  },
-
-  descTextWidth: {
-    width: '397px',
-  },
-
-  descTextWidth2: {
-    width: '327px',
-  },
-
-  bottomDesc: {
-    marginTop: '40px',
-  },
-
-  listLi: {
-    color: 'white',
-  },
-
-  floatLeft: {
-    float: 'left',
-  },
-
-  descTitleSquare: {
-    width: '2px',
-    height: '14px',
-    background: 'white',
-    marginTop: '8px',
-    marginLeft: '16px',
-    marginRight: '16px',
-    opacity: '0.6',
-  },
-
-  activePhase: {
-    opacity: '1.0',
-  },
-
-  //<<<<<<<<<<<<<<<<<<<< Responsive scale
-
-  //1500px
-  ['@media (max-width: 1500px)']: {
-    roadMapDiv: {
-      marginLeft: '30px',
-    },
-  },
-
-  //1440px
-  ['@media (max-width: 1440px)']: {
-    titleDiv: {
-      marginLeft: '66px',
-      marginRight: '65px',
-      marginTop: '75px',
-    },
-
-    roadMapDiv: {
-      width: '100%',
-    },
-
-    secondSectionStripe: {
-      top: '391px',
-      left: '-89px',
-    },
-
-    thirdSectionStripe: {
-      top: '391px',
-      left: '-97px',
-    },
-  },
-
-  //1439px
-  ['@media (max-width: 1439px)']: {
-    titleDiv: {
-      width: '90%',
-      margin: '0 auto',
-      marginTop: '75px',
-    },
-
-    actualPhase: {
-      display: 'none',
-    },
-
-    firstSectionStripe: {
-      display: 'none',
-    },
-
-    secondSectionStripe: {
-      display: 'none',
-    },
-
-    thirdSectionStripe: {
-      display: 'none',
-    },
-
-    firstSection: {
-      marginTop: '30px',
-    },
-
-    firstSectionBackground: {
-      top: '22px',
-    },
-
-    secondSection: {
-      marginTop: '30px',
-    },
-
-    secondSectionBackground: {
-      top: '22px',
-    },
-
-    thirdSection: {
-      marginTop: '30px',
-      marginLeft: '-50px',
-    },
-
-    thirdSectionBackground: {
-      top: '22px',
-      marginLeft: '-50px',
-    },
-
-    oneSection: {
-      height: '530px',
-    },
-  },
-
-  //1300px
-  ['@media (max-width: 1300px)']: {
-    oneSection: {
-      marginRight: '50px',
-    },
-  },
-
-  //1155px
-  ['@media (max-width: 1155px)']: {
-    titleTypography: {
-      fontSize: '38px',
-    },
-
-    oneSection: {
-      marginRight: '150px',
-    },
-
-    hiddenSlide1: {
-      display: 'block',
-    },
-  },
-
-  //900px
-  ['@media (max-width: 900px)']: {
-    oneSection: {
-      marginRight: '250px',
-    },
-
-    hiddenSlide2: {
-      display: 'block',
-    },
-  },
-
-  //855px
-  ['@media (max-width: 855px)']: {
-    titleTypography: {
-      fontSize: '32px',
-    },
-  },
-
-  //690px
-  ['@media (max-width: 690px)']: {
-    titleTypography: {
-      fontSize: '25px',
-    },
-  },
-
-  //650px
-  ['@media (max-width: 650px)']: {
-    oneSection: {
-      marginRight: '350px',
-    },
-
-    hiddenSlide3: {
-      display: 'block',
-    },
-  },
-
-  //600px
-  ['@media (max-width: 650px)']: {
-    firstSectionBackground: {
-      left: '107px',
-    },
-
-    secondSectionBackground: {
-      left: '107px',
-    },
-
-    thirdSectionBackground: {
-      left: '107px',
-      marginLeft: '0px',
-    },
-
-    thirdSection: {
-      marginLeft: '0px',
-    },
-
-    oneSection: {
-      marginRight: '200px',
-    },
-  },
-
-  //530px
-  ['@media (max-width: 530px)']: {
-    firstSectionBackground: {
-      left: '57px',
-    },
-
-    secondSectionBackground: {
-      left: '57px',
-    },
-
-    thirdSectionBackground: {
-      left: '57px',
-      marginLeft: '0px',
-    },
-
-    descText: {
-      fontSize: '13px',
-    },
-
-    descTextWidth: {
-      width: '327px',
-    },
-
-    descTextWidth2: {
-      width: '257px',
-    },
-
-    oneSection: {
-      height: '550px',
-      marginRight: '220px',
-    },
-
-    hiddenSlide4: {
-      display: 'block',
-    },
-  },
-
-  //450px
-  ['@media (max-width: 450px)']: {
-    titleTypography: {
-      width: '100%',
-      textAlign: 'center',
-      marginBottom: '20px',
-    },
-  },
-
-  //440px
-  ['@media (max-width: 440px)']: {
-    titleTypography: {
-      fontSize: '20px',
-    },
-  },
-
-  //425px
-  ['@media (max-width: 425px)']: {
-    descTitleSquare: {
-      marginLeft: '12px',
-      marginRight: '12px',
-    },
-  },
-
-  //400px
-  ['@media (max-width: 400px)']: {
-    oneSection: {
-      height: '570px',
-      marginRight: '200px',
-    },
-
-    hiddenSlide5: {
-      display: 'block',
-    },
-
-    roadMapDiv: {
-      marginLeft: '20px',
-    },
-  },
-
-  //350px
-  ['@media (max-width: 350px)']: {
-    firstSectionBackground: {
-      left: '10px',
-    },
-
-    secondSectionBackground: {
-      left: '10px',
-    },
-
-    thirdSectionBackground: {
-      left: '10px',
-    },
-  },
+	mainDiv: {
+		marginTop: '100px',
+		width: '100%',
+	},
+
+	titleDiv: {
+		width: '1294px',
+		margin: '0 auto',
+		marginTop: '75px',
+		marginBottom: '30px',
+	},
+
+	titleTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '600',
+		fontSize: '48px',
+		lineHeight: '150%',
+		color: '#ffffff',
+	},
+
+	counterDiv: {
+		position: 'absolute',
+		width: '100%',
+		marginTop: '-400px',
+	},
+
+	counterBgDiv: {
+		background: 'rgba(18, 6, 33, 0.5)',
+		backdropFilter: 'blur(50px)',
+		borderRadius: '654654px',
+		width: '608px',
+		height: '78px',
+		margin: '0 auto',
+		marginTop: '16px',
+	},
+
+	minuteDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	secondDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	dayDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	hourDiv: {
+		paddingTop: '7px',
+		height: '62px',
+		width: 'auto',
+		marginLeft: '52px',
+		float: 'left',
+	},
+
+	counterTitleTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '600',
+		fontSize: '48px',
+		lineHeight: '150%',
+		color: '#ffffff',
+		width: '100%',
+		textAlign: 'center',
+	},
+
+	counterDescTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '600',
+		fontSize: '24px',
+		lineHeight: '29px',
+		color: '#ffffff',
+		width: '100%',
+		textAlign: 'center',
+	},
+
+	mobileRoadMap: {
+		display: 'none',
+		height: '500px',
+		width: '90%',
+		margin: '0 auto',
+	},
+
+	mobileSlider: {
+		marginTop: '0px',
+		height: '100%',
+		filter: 'blur(5px)',
+	},
+
+	desktopRoadMap: {
+		width: '1294px',
+		margin: '0 auto',
+		height: '500px',
+	},
+
+	mobileRoadMapStripe: {
+		width: '100%',
+		height: '8px',
+		background: '#483e57',
+		marginTop: '12px',
+		position: 'absolute',
+		marginLeft: '1px',
+		'z-index': '-1',
+	},
+
+	mobileRoadMapStripeFillFull: {
+		width: '100%',
+		height: '8px',
+		background: '#ae82fc',
+	},
+
+	mobileRoadMapStripeFill: {
+		width: '80%',
+		height: '8px',
+		background: '#ae82fc',
+	},
+
+	desktopRoadMapStripe: {
+		width: '10000px',
+		height: '8px',
+		background: '#483e57',
+		marginTop: '39px',
+		filter: 'blur(5px)',
+	},
+
+	desktopRoadMapStripeFill: {
+		width: '254px',
+		height: '8px',
+		background: '#ae82fc',
+	},
+
+	desktopRoadMapCircle: {
+		width: '32px',
+		height: '32px',
+		borderRadius: '66px',
+		background: '#5b4f6a',
+		marginTop: '-21px',
+		marginLeft: '-1px',
+		filter: 'blur(5px)',
+	},
+
+	desktopRoadMapCircleFill: {
+		width: '32px',
+		height: '32px',
+		borderRadius: '66px',
+		background: '#ae82fc',
+		marginTop: '-21px',
+		marginLeft: '-1px',
+		filter: 'blur(5px)',
+	},
+
+	mobileRoadMapCircle: {
+		width: '32px',
+		height: '32px',
+		borderRadius: '66px',
+		background: '#5b4f6a',
+	},
+
+	mobileRoadMapCircleFill: {
+		width: '32px',
+		height: '32px',
+		borderRadius: '66px',
+		background: '#ae82fc',
+	},
+
+	desktopRoadMapFirstSection: {
+		width: '282px',
+		float: 'left',
+		marginRight: '49px',
+	},
+
+	desktopRoadMapSecondSection: {
+		width: '276px',
+		float: 'left',
+		marginRight: '56px',
+	},
+
+	desktopRoadMapThirdSection: {
+		width: '334px',
+		float: 'left',
+		marginRight: '49px',
+	},
+
+	desktopRoadMapFourthSection: {
+		width: '220px',
+		float: 'left',
+	},
+
+	phaseTitle: {
+		marginTop: '17px',
+	},
+
+	phaseDesc: {
+		marginTop: '50px',
+		marginLeft: '-20px',
+	},
+
+	listLi: {
+		color: 'white',
+		clear: 'both',
+		filter: 'blur(5px)',
+	},
+
+	phaseTitleTypo: {
+		fontFamily: 'Montserrat',
+		fontStyle: 'normal',
+		fontWeight: '400',
+		fontSize: '14px',
+		lineHeight: '200%',
+		color: '#ffffff',
+		float: 'left',
+		filter: 'blur(5px)',
+	},
+
+	phaseTitleBlock: {
+		width: '2px',
+		height: '14px',
+		marginLeft: '16px',
+		marginRight: '16px',
+		background: '#ffffff',
+		float: 'left',
+		marginTop: '7px',
+		filter: 'blur(5px)',
+	},
+
+	phaseDescTypo: {
+		fontFamily: 'Montserrat',
+		fontStyle: 'normal',
+		fontWeight: '400',
+		fontSize: '14px',
+		lineHeight: '200%',
+		color: '#ffffff',
+		float: 'left',
+		marginTop: '-2px',
+		filter: 'blur(5px)',
+	},
+
+	rightElementsElement: {
+		width: '30px',
+		height: '30px',
+		opacity: '1',
+		transition: 'opacity .5s',
+		background: 'url(https://i.imgur.com/ReWcC4E.png)',
+		backgroundSize: 'cover',
+
+		'&:hover': {
+			opacity: '0.7',
+		},
+	},
+
+	rightElements: {
+		width: '100%',
+		textAlign: 'center',
+		'& ul': {
+			'& li': {
+				display: 'inline-block',
+				paddingLeft: '25px',
+				paddingTop: '7px',
+				'& a': {
+					opacity: '1',
+					transition: 'opacity .5s',
+					'&:hover': {
+						opacity: '0.8',
+					},
+				},
+			},
+			'& li:nth-child(1)': {
+				paddingLeft: '0px',
+			},
+		},
+	},
+
+	//<<<<<<<<<<<<<<<<<<<< Responsive scale
+	//1440px
+	['@media (max-width: 1440px)']: {
+		titleDiv: {
+			marginLeft: '66px',
+			marginRight: '65px',
+			marginTop: '75px',
+		},
+
+		desktopRoadMap: {
+			width: '90%',
+		},
+	},
+
+	//1439px
+	['@media (max-width: 1439px)']: {
+		titleDiv: {
+			width: '90%',
+			margin: '0 auto',
+			marginTop: '75px',
+		},
+	},
+
+	//1430px
+	['@media (max-width: 1430px)']: {
+		desktopRoadMap: {
+			display: 'none',
+		},
+
+		mobileRoadMap: {
+			display: 'block',
+		},
+
+		phaseDesc: {
+			width: '80%',
+		},
+	},
+
+	//1155px
+	['@media (max-width: 1155px)']: {
+		titleTypography: {
+			fontSize: '38px',
+		},
+
+		counterTitleTypography: {
+			fontSize: '38px',
+		},
+	},
+
+	//1000px
+	['@media (max-width: 1000px)']: {},
+
+	//855px
+	['@media (max-width: 855px)']: {
+		titleTypography: {
+			fontSize: '32px',
+		},
+
+		counterTitleTypography: {
+			fontSize: '32px',
+		},
+	},
+
+	//690px
+	['@media (max-width: 690px)']: {
+		titleTypography: {
+			fontSize: '25px',
+		},
+
+		counterTitleTypography: {
+			fontSize: '25px',
+		},
+
+		counterBgDiv: {
+			width: '90%',
+		},
+
+		rightElements: {
+			width: '90%',
+		},
+
+		secondDiv: {
+			marginLeft: '0',
+			width: '28%',
+		},
+
+		dayDiv: {
+			marginLeft: '0',
+			width: '22%',
+		},
+
+		minuteDiv: {
+			marginLeft: '0',
+			width: '28%',
+		},
+
+		hourDiv: {
+			marginLeft: '0',
+			width: '22%',
+		},
+	},
+
+	//625px
+	['@media (max-width: 625px)']: {
+		minuteDiv: {
+			marginLeft: '0px',
+			width: '25%',
+		},
+
+		counterDescTypography: {
+			fontSize: '20px',
+		},
+	},
+
+	//510px
+	['@media (max-width: 510px)']: {
+		counterDescTypography: {
+			fontSize: '18px',
+		},
+	},
+
+	//450px
+	['@media (max-width: 450px)']: {
+		titleTypography: {
+			width: '100%',
+			textAlign: 'center',
+			marginBottom: '20px',
+		},
+	},
+
+	//440px
+	['@media (max-width: 440px)']: {
+		titleTypography: {
+			fontSize: '20px',
+		},
+
+		counterTitleTypography: {
+			fontSize: '20px',
+		},
+	},
+
+	//420px
+	['@media (max-width: 420px)']: {
+		counterDescTypography: {
+			fontSize: '17px',
+			lineHeight: '22px',
+			marginTop: '5px',
+		},
+	},
+
+	//390px
+	['@media (max-width: 390px)']: {
+		counterDescTypography: {
+			fontSize: '15px',
+		},
+	},
 });
 
 export default useStyles;

@@ -1,163 +1,166 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-  appBar: {
-    position: 'relative',
-    width: '1280px',
-    height: '102px',
-    margin: '0 auto',
-    marginTop: '92px',
-    paddingTop: '20px',
-    background: 'transparent',
-    borderTop: '1px solid #a798fd',
-    'overflow-y': 'hidden',
-  },
+	appBar: {
+		position: 'relative',
+		width: '1280px',
+		height: '102px',
+		margin: '0 auto',
+		marginTop: '92px',
+		paddingTop: '20px',
+		background: 'transparent',
+		borderTop: '1px solid #a798fd',
+		'overflow-y': 'hidden',
+	},
 
-  rightElementsElement: {
-    width: '32px',
-    height: '32px',
+	rightElementsElement: {
+		width: '32px',
+		height: '32px',
 
-    opacity: '1',
-    transition: 'opacity .5s',
+		opacity: '1',
+		transition: 'opacity .5s',
 
-    '&:hover': {
-      opacity: '0.7',
-    },
-  },
+		background: 'url(https://i.imgur.com/ReWcC4E.png)',
+		backgroundSize: 'cover',
 
-  toolBar: {
-    width: '100%',
-    margin: '0 auto',
-  },
+		'&:hover': {
+			opacity: '0.7',
+		},
+	},
 
-  logo: {
-    marginTop: '3px',
-    marginLeft: '0px',
-  },
+	toolBar: {
+		width: '100%',
+		margin: '0 auto',
+	},
 
-  centerElements: {
-    textAlign: 'center',
-    marginLeft: 'auto',
-    paddingLeft: '35px',
-  },
+	logo: {
+		marginTop: '3px',
+		marginLeft: '0px',
+	},
 
-  leftTypography: {
-    fontFamily: 'Syne',
-    fontStyle: 'normal',
-    fontWeight: '400',
-    fontSize: '14px',
-    lineHeight: '24px',
-    color: 'rgba(255, 255, 255, 0.75)',
-    marginLeft: '22px',
-  },
+	centerElements: {
+		textAlign: 'center',
+		marginLeft: 'auto',
+		paddingLeft: '35px',
+	},
 
-  centerTypography: {
-    fontFamily: 'Syne',
-    fontStyle: 'normal',
-    fontWeight: '400',
-    fontSize: '14px',
-    lineHeight: '24px',
-    color: 'rgba(255, 255, 255, 0.75)',
-  },
+	leftTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '400',
+		fontSize: '14px',
+		lineHeight: '24px',
+		color: 'rgba(255, 255, 255, 0.75)',
+		marginLeft: '22px',
+	},
 
-  rightElements: {
-    marginLeft: 'auto',
-    marginRight: '0px',
-    '& ul': {
-      '& li': {
-        display: 'inline-block',
-        paddingLeft: '16px',
-        paddingTop: '7px',
-        '& a': {
-          opacity: '1',
-          transition: 'opacity .5s',
-          '&:hover': {
-            opacity: '0.8',
-          },
-        },
-      },
-      '& li:nth-child(1)': {
-        paddingLeft: '0px',
-      },
-    },
-  },
+	centerTypography: {
+		fontFamily: 'Syne',
+		fontStyle: 'normal',
+		fontWeight: '400',
+		fontSize: '14px',
+		lineHeight: '24px',
+		color: 'rgba(255, 255, 255, 0.75)',
+	},
 
-  copyRight: {
-    display: 'none',
-  },
+	rightElements: {
+		marginLeft: 'auto',
+		marginRight: '0px',
+		'& ul': {
+			'& li': {
+				display: 'inline-block',
+				paddingLeft: '16px',
+				paddingTop: '7px',
+				'& a': {
+					opacity: '1',
+					transition: 'opacity .5s',
+					'&:hover': {
+						opacity: '0.8',
+					},
+				},
+			},
+			'& li:nth-child(1)': {
+				paddingLeft: '0px',
+			},
+		},
+	},
 
-  copyRight2: {
-    display: 'none',
-  },
+	copyRight: {
+		display: 'none',
+	},
 
-  //<<<<<<<<<<<<<<<<<<<< Responsive scale
-  //1440px
-  ['@media (max-width: 1440px)']: {
-    appBar: {
-      width: '90%',
-    },
-  },
+	copyRight2: {
+		display: 'none',
+	},
 
-  //800px
-  ['@media (max-width: 800px)']: {
-    leftTypography: {
-      fontSize: '12px',
-    },
+	//<<<<<<<<<<<<<<<<<<<< Responsive scale
+	//1440px
+	['@media (max-width: 1440px)']: {
+		appBar: {
+			width: '90%',
+		},
+	},
 
-    centerTypography: {
-      fontSize: '12px',
-    },
-  },
+	//800px
+	['@media (max-width: 800px)']: {
+		leftTypography: {
+			fontSize: '12px',
+		},
 
-  //720px
-  ['@media (max-width: 720px)']: {
-    centerElements: {
-      display: 'none',
-    },
+		centerTypography: {
+			fontSize: '12px',
+		},
+	},
 
-    copyRight: {
-      display: 'block',
-      marginTop: '0px',
-      marginBottom: '20px',
-      width: '100%',
-      textAlign: 'center',
-    },
-  },
+	//720px
+	['@media (max-width: 720px)']: {
+		centerElements: {
+			display: 'none',
+		},
 
-  //550px
-  ['@media (max-width: 550px)']: {
-    rightElementsElement: {
-      width: '38px',
-      height: '38px',
-    },
-  },
+		copyRight: {
+			display: 'block',
+			marginTop: '0px',
+			marginBottom: '20px',
+			width: '100%',
+			textAlign: 'center',
+		},
+	},
 
-  //520px
-  ['@media (max-width: 520px)']: {
-    copy: {
-      display: 'none',
-    },
+	//550px
+	['@media (max-width: 550px)']: {
+		rightElementsElement: {
+			width: '38px',
+			height: '38px',
+		},
+	},
 
-    copyRight2: {
-      display: 'block',
-      marginTop: '10px',
-      marginBottom: '5px',
-      width: '100%',
-      textAlign: 'center',
-    },
+	//520px
+	['@media (max-width: 520px)']: {
+		copy: {
+			display: 'none',
+		},
 
-    leftTypography: {
-      marginLeft: '0px',
-    },
-  },
+		copyRight2: {
+			display: 'block',
+			marginTop: '10px',
+			marginBottom: '5px',
+			width: '100%',
+			textAlign: 'center',
+		},
 
-  //370px
-  ['@media (max-width: 370px)']: {
-    rightElementsElement: {
-      width: '35px',
-      height: '35px',
-    },
-  },
+		leftTypography: {
+			marginLeft: '0px',
+		},
+	},
+
+	//370px
+	['@media (max-width: 370px)']: {
+		rightElementsElement: {
+			width: '35px',
+			height: '35px',
+		},
+	},
 });
 
 export default useStyles;

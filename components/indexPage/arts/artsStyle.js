@@ -21,61 +21,56 @@ const useStyles = makeStyles({
     display: 'none',
   },
 
-  oneSection: {
-    width: '202px',
-    height: '256px',
-  },
-
   lastSection: {
     width: '5px',
     height: '256px',
   },
 
   artDiv: {
-    width: '202px',
-    height: '202px',
+    width: '100%',
+    height: '100%',
   },
 
   artGradient1: {
-    width: '202px',
+    width: '100%',
     height: '54px',
     background:
-      'linear-gradient(180deg, rgba(18, 6, 32, 0.6) 0%, rgba(202, 172, 254, 0.25) 100%)',
+      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(199, 180, 234, 0.25) 100%)',
   },
 
   artGradient2: {
-    width: '202px',
+    width: '100%',
     height: '54px',
     background:
-      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(254, 229, 66, 0.25) 100%)',
+      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(238, 223, 121, 0.25) 100%)',
   },
 
   artGradient3: {
-    width: '202px',
+    width: '100%',
     height: '54px',
     background:
-      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(254, 203, 243, 0.25) 100%)',
+      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(146, 229, 234, 0.25) 100%)',
   },
 
   artGradient4: {
-    width: '202px',
+    width: '100%',
     height: '54px',
     background:
-      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(108, 193, 255, 0.25) 100%)',
+      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(129, 208, 242, 0.25) 100%)',
   },
 
   artGradient5: {
-    width: '202px',
+    width: '100%',
     height: '54px',
     background:
-      'linear-gradient(180deg, rgba(18, 6, 33, 0.5) 0%, rgba(240, 198, 144, 0.25) 100%)',
+      'linear-gradient(180deg, rgba(18, 6, 33, 0.5) 0%, rgba(235, 207, 173, 0.25) 100%)',
   },
 
   artGradient6: {
-    width: '202px',
+    width: '100%',
     height: '54px',
     background:
-      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(96, 230, 238, 0.25) 100%)',
+      'linear-gradient(180deg, rgba(18, 6, 32, 0.5) 0%, rgba(241, 202, 224, 0.25) 100%)',
   },
 
   //<<<<<<<<<<<<<<<<<<<< Responsive scale

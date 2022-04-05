@@ -18,19 +18,9 @@ const useStyles = makeStyles({
     display: 'none',
   },
 
-  oneSection: {
-    width: '202px',
-    height: '256px',
-  },
-
-  lastSection: {
-    width: '5px',
-    height: '256px',
-  },
-
   artDiv: {
-    width: '202px',
-    height: '202px',
+    width: '100%',
+    height: '100%',
   },
 
   bottomSection: {
@@ -75,7 +65,7 @@ const useStyles = makeStyles({
   },
 
   traitTitle: {
-    width: '202px',
+    width: '100%',
     height: '54px',
   },
 
