@@ -6,60 +6,74 @@ const useStyles = makeStyles({
 		margin: '0 auto',
 	},
 
-	imageDiv: {
-		width: '300px',
-		height: '300px',
-		position: 'fixed',
-		top: '45%',
-		left: '50%',
-		transform: 'translate(-45%, -50%)',
-	},
-
-	image1: {
-		background: 'url(https://i.imgur.com/bhwYa3u.png)',
-		backgroundSize: '100%',
-		'-webkit-filter': 'grayscale(100%)',
-		filter: 'grayscale(100%)',
-		width: '100%',
-		height: '100%',
-		position: 'absolute',
-		'-webkit-transform': 'scaleY(-1)',
-	},
-
-	image2: {
-		background: 'url(https://i.imgur.com/bhwYa3u.png)',
-		backgroundSize: '100%',
-		width: '100%',
-		//height: '20%',
-		//marginTop: '80%',
-		position: 'absolute',
-		'-webkit-transform': 'scaleY(-1)',
-	},
-
 	typoText: {
-		width: '300px',
-		position: 'fixed',
-		top: '45%',
-		left: '50%',
-		transform: 'translate(-55%, -50%)',
+		width: '100%',
 		textAlign: 'center',
 		fontFamily: 'Montserrat',
 		fontStyle: 'normal',
 		fontWeight: '500',
 		fontSize: '24px',
 		color: '#ffffff',
-		marginTop: '175px',
+		marginTop: '40px',
+	},
+
+	lineDiv: {
+		width: '425px',
+		height: '3px',
+		margin: '0 auto',
+		marginTop: '360px',
+	},
+
+	line: {
+		position: 'absolute',
+		left: '0',
+		right: '0',
+		marginLeft: 'auto',
+		marginRight: 'auto',
+		width: '425px',
+		height: '3px',
+		marginTop: '16px',
+		background: 'white',
+	},
+
+	starDiv: {
+		width: '35px',
+		height: '35px',
+		position: 'relative',
+		marginLeft: '50%',
 	},
 
 	//<<<<<<<<<<<<<<<<<<<< Responsive scale
 	//1440px
 	['@media (max-width: 1440px)']: {
-		imageDiv: {
-			width: '250px',
-			height: '250px',
+		mainDiv: {
+			width: '90%',
+			margin: '0 auto',
 		},
-		typoText: {
-			marginTop: '145px',
+	},
+
+	//500px
+	['@media (max-width: 500px)']: {
+		lineDiv: {
+			width: '90%',
+		},
+
+		line: {
+			width: '90%',
+		},
+	},
+
+	//414px
+	['@media (max-width: 414px)']: {
+		lineDiv: {
+			marginTop: '320px',
+		},
+	},
+
+	//350px
+	['@media (max-width: 350px)']: {
+		lineDiv: {
+			marginTop: '260px',
 		},
 	},
 });
