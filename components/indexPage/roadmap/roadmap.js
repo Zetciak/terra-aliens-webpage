@@ -330,7 +330,6 @@ function Roadmap() {
 					}}
 					spaceBetween={0}
 					className={classes.mobileSlider}
-					style={{ 'pointer-events': 'none' }}
 				>
 					<SwiperSlide>
 						<div className={classes.mobileRoadMapStripe}>
