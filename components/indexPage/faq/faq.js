@@ -70,8 +70,8 @@ function Faq() {
 		},
 		{
 			id: 'faq22',
-			title: 'When is mint and what is the price?',
-			desc: 'That is yet to be revealed.',
+			title: 'Mint. When and where?',
+			desc: 'The mint will be held on the 2nd of May on Luart. The Terra Aliens project will have 1.5x LUA Power Multiplier for Minters and 2x LUA Power for Marketplace. LUA Power is the reward point system for the Luart platform. LUA Power is used for the gamification of the site and a way for users to receive revenue sharing airdrops, NFT boxes and whitelist access to partnered projects. By receiving LUA Power, Aliens will be able to reap additional benefits for engaging with the project on the launchpad and marketplace, giving increased rewards to LUNAtics who engage with the project. Driving increased value accrual towards incentivizing our community.',
 		},
 		{
 			id: 'faq33',
@@ -90,8 +90,18 @@ function Faq() {
 		},
 		{
 			id: 'faq66',
-			title: 'How to get a WL spot?',
-			desc: 'Check #how-to-get-whitelisted channel at ',
+			title: 'How can I get WL? Is there any chance to get it?',
+			desc: 'Whitelist opportunities will be available for all to take part in. Join our Discord or follow us on Twitter to stay up to date on the various contests and giveaways that we will be having during the build up to our launch.',
+		},
+		{
+			id: 'faq77',
+			title: 'What is the Treasury?',
+			desc: 'The Treasury will be funded by 100% of our secondary sales and a portion of the mint revenue. The wallet will be actively managed by the Terra Aliens team and the funding will be used to invest in yield assets and NFT projects on Terra in our aim to give back to the entire community. The purpose of the wallet is to ultimately drive higher demand and increase the floor price of Terra Aliens, while also helping to support the overall Terra NFT ecosystem. Individual stages will be revealed soon, along with explanations and percentages. The DAO will be able to vote on proposals to utilize the treasury for the development and future roadmap of Terra Aliens.',
+		},
+		{
+			id: 'faq77',
+			title: 'Supply? Price? How much does it cost?',
+			desc: 'The supply and price will be disclosed at a closer date to the mint. We at Terra Aliens want to focus on community development and showcasing our roadmap plans without being overshadowed by quantitative figures that can indirectly shape first impressions of the project. We want you to learn about us and the project, just as how we want to show you what we are all about. Rest assured, we have the community firmly in our minds when it comes to pricing and supply structure. Details of the mint supply and price will be disclosed closer to mint (towards the end of April). Whitelist address collections will commence close to mint date to ensure only interested parties submit their wallets, to avoid falsified demand and false impetus on true community engagement within the project.',
 		},
 	];
 
@@ -133,19 +143,7 @@ function Faq() {
 							</Typography>
 						</AccordionSummary>
 						<AccordionDetails>
-							{id == 'faq66' ? (
-								<Typography className={classes.desc}>
-									{desc}
-									<a
-										href="https://discord.gg/terraaliens"
-										target="_blank"
-										rel="noreferrer"
-										className={classes.discordHref}
-									>
-										our Discord.
-									</a>
-								</Typography>
-							) : id == 'faq33' ? (
+							{id == 'faq33' ? (
 								<Typography className={classes.desc}>
 									{desc}
 									<a
