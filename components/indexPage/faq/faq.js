@@ -99,7 +99,7 @@ function Faq() {
 			desc: 'The Treasury will be funded by 100% of our secondary sales and a portion of the mint revenue. The wallet will be actively managed by the Terra Aliens team and the funding will be used to invest in yield assets and NFT projects on Terra in our aim to give back to the entire community. The purpose of the wallet is to ultimately drive higher demand and increase the floor price of Terra Aliens, while also helping to support the overall Terra NFT ecosystem. Individual stages will be revealed soon, along with explanations and percentages. The DAO will be able to vote on proposals to utilize the treasury for the development and future roadmap of Terra Aliens.',
 		},
 		{
-			id: 'faq77',
+			id: 'faq88',
 			title: 'Supply? Price? How much does it cost?',
 			desc: 'The supply and price will be disclosed at a closer date to the mint. We at Terra Aliens want to focus on community development and showcasing our roadmap plans without being overshadowed by quantitative figures that can indirectly shape first impressions of the project. We want you to learn about us and the project, just as how we want to show you what we are all about. Rest assured, we have the community firmly in our minds when it comes to pricing and supply structure. Details of the mint supply and price will be disclosed closer to mint (towards the end of April). Whitelist address collections will commence close to mint date to ensure only interested parties submit their wallets, to avoid falsified demand and false impetus on true community engagement within the project.',
 		},
