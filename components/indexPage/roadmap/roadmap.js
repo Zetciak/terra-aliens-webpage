@@ -68,86 +68,43 @@ function Roadmap() {
 	// Phases elements
 	const phases = new Array();
 	phases[0] = new Array();
-	/*
-	phases[0][0] = 'Early Community Building';
-	phases[0][1] = 'NFT and Roadmap Reveal';
-	phases[0][2] = 'Giveaways and Partnerships';
-	phases[0][3] = 'Mint details revealed';
-	phases[0][4] = 'Beta Market reveal for future holders';
-	phases[0][5] = 'Differences';
+
+	phases[0][0] = 'NFT and Roadmap Reveal';
+	phases[0][1] = 'Giveaways and Partnerships';
+	phases[0][2] = 'Mint details revealed';
+	phases[0][3] = 'UI Beta App reveal for future holders';
+	phases[0][4] = 'Differences';
 
 	phases[1] = new Array();
-	phases[1][0] = 'Introduction of the holders benefits';
-	phases[1][1] = 'The Mint goes live';
-	phases[1][2] = 'Discord game announcement';
-	phases[1][3] = 'Merch reveal in market';
-	phases[1][4] = 'NFT staking';
-	phases[1][5] = 'Rarity calculator';
-	phases[1][6] = 'DAO Announcement';
-	phases[1][7] = 'Hodlers ranks';
-	phases[1][8] = 'Sales tracker';
-	phases[1][9] = 'Whale tracker';
+	phases[1][0] = 'The Mint goes live';
+	phases[1][1] = 'Rarity calculator';
+	phases[1][2] = 'Sales tracker';
+	phases[1][3] = 'Introduction of the holders benefits';
+	phases[1][4] = 'Hodlers ranks';
+	phases[1][5] = 'Whale tracker';
+	phases[1][6] = 'Traits floor';
+	phases[1][7] = 'Treasury for the future development';
+	phases[1][8] = 'DAO Announcement';
+	phases[1][9] = 'NFT staking';
 
 	phases[2] = new Array();
 	phases[2][0] = 'Rare NFT benefits revealed';
-	phases[2][1] = 'DAO - formation including royalties sharing';
-	phases[2][2] = 'Charity Donation';
+	phases[2][1] = 'Charity Donation';
+	phases[2][2] = 'DAO - formation including royalties sharing';
 	phases[2][3] = 'Collabs with other projects that will benefit our holders';
 	phases[2][4] = 'Open market for top hodlers';
 	phases[2][5] = 'Additional upgrades for the Aliens';
-	phases[2][6] = 'Treasury for the future development';
-	phases[2][7] = 'Floor sweeper';
-	phases[2][8] = 'Traits floor';
-	phases[2][9] = 'DAO - Polishing event';
-	phases[2][10] = 'Terra Aliens families reunification';
-	phases[2][11] = 'Role select for the Aliens';
-	phases[2][12] = 'Build galactic economy';
+	phases[2][6] = 'Terra Aliens families reunification';
+	phases[2][7] = 'Role select for the Aliens';
+	phases[2][8] = 'Build galactic economy';
 
 	phases[3] = new Array();
 	phases[3][0] = 'Planet details';
-	phases[3][1] = 'Beta acces to Terra Aliens metaverse';
-	phases[3][2] = 'DAO - Incoming force reborn';
-	phases[3][3] = 'Materialization';
+	phases[3][1] = 'Materialization';
+	phases[3][2] = 'Beta access to Terra Aliens metaverse';
+	phases[3][3] = 'DAO - Incoming force reborn';
 	phases[3][4] = 'Aliens reborn';
-	*/
-
-	phases[0][0] = 'Never gonna give you up';
-	phases[0][1] = 'Never gonna let you down';
-	phases[0][2] = 'Never gonna run around and desert you';
-	phases[0][3] = 'Never gonna make you cry';
-	phases[0][4] = 'Never gonna let you down';
-	phases[0][5] = 'Never gonna give you up';
-
-	phases[1] = new Array();
-	phases[1][0] = 'Never gonna give you up';
-	phases[1][1] = 'Never gonna let you down';
-	phases[1][2] = 'Never gonna run around and desert you';
-	phases[1][3] = 'Never gonna make you cry';
-	phases[1][4] = 'Never gonna give you up';
-	phases[1][5] = 'Never gonna let you down';
-	phases[1][6] = 'Never gonna make you cry';
-	phases[1][7] = 'Never gonna give you up';
-	phases[1][8] = 'Never gonna let you down';
-	phases[1][9] = 'Never gonna make you cry';
-	phases[1][10] = 'Never gonna give you up';
-	phases[1][11] = 'Never gonna let you down';
-
-	phases[2] = new Array();
-	phases[2][0] = 'Never gonna give you up';
-	phases[2][1] = 'Never gonna let you down';
-	phases[2][2] = 'Never gonna run around and desert you';
-	phases[2][3] = 'Never gonna make you cry';
-	phases[2][4] = 'Never gonna give you up';
-	phases[2][5] = 'Never gonna let you down';
-	phases[2][6] = 'Never gonna make you cry';
-	phases[2][7] = 'Never gonna give you up';
-	phases[2][8] = 'Never gonna let you down';
-
-	phases[3] = new Array();
-	phases[3][0] = 'Never gonna let you down';
-	phases[3][1] = 'Never gonna run around and desert you';
-	phases[3][2] = 'Never gonna make you cry';
-	phases[3][3] = 'Never gonna give you up';
+	phases[3][4] = 'Roadmap 2.0 – future updates for the Aliens universe';
 
 	let phase1 = [];
 	let phase2 = [];
@@ -437,7 +394,7 @@ function Roadmap() {
 					</SwiperSlide>
 				</Swiper>
 			</div>
-			<div className={classes.counterDiv}>
+			<div className={classes.counterDiv} style={{ display: 'none' }}>
 				<Typography className={classes.counterTitleTypography}>
 					Road map in:
 				</Typography>

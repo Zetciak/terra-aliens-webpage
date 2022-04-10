@@ -103,6 +103,11 @@ function Faq() {
 			title: 'Supply? Price? How much does it cost?',
 			desc: 'The supply and price will be disclosed at a closer date to the mint. We at Terra Aliens want to focus on community development and showcasing our roadmap plans without being overshadowed by quantitative figures that can indirectly shape first impressions of the project. We want you to learn about us and the project, just as how we want to show you what we are all about. Rest assured, we have the community firmly in our minds when it comes to pricing and supply structure. Details of the mint supply and price will be disclosed closer to mint (towards the end of April). Whitelist address collections will commence close to mint date to ensure only interested parties submit their wallets, to avoid falsified demand and false impetus on true community engagement within the project.',
 		},
+		{
+			id: 'faq99',
+			title: 'What if I have Community and Public WL?',
+			desc: 'You are able to mint twice. During Community and Public mint.',
+		},
 	];
 
 	//Style
