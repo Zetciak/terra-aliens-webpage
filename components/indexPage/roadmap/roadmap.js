@@ -171,7 +171,7 @@ function Roadmap() {
 		<div className={classes.mainDiv} id="roadMapScroll">
 			<div className={classes.titleDiv}>
 				<Typography className={classes.titleTypography}>
-					Road Map - soon!
+					Road Map
 				</Typography>
 			</div>
 			<div className={classes.desktopRoadMap}>
