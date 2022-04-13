@@ -80,7 +80,7 @@ function Roadmap() {
 	phases[1][1] = 'Rarity calculator';
 	phases[1][2] = 'Sales tracker';
 	phases[1][3] = 'Introduction of the holders benefits';
-	phases[1][4] = 'Hodlers ranks';
+	phases[1][4] = 'Holders ranks';
 	phases[1][5] = 'Whale tracker';
 	phases[1][6] = 'Traits floor';
 	phases[1][7] = 'Treasury for the future development';
@@ -92,7 +92,7 @@ function Roadmap() {
 	phases[2][1] = 'Charity Donation';
 	phases[2][2] = 'DAO - formation including royalties sharing';
 	phases[2][3] = 'Collabs with other projects that will benefit our holders';
-	phases[2][4] = 'Open market for top hodlers';
+	phases[2][4] = 'Open market for top holders';
 	phases[2][5] = 'Additional upgrades for the Aliens';
 	phases[2][6] = 'Terra Aliens families reunification';
 	phases[2][7] = 'Role select for the Aliens';
