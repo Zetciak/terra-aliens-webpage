@@ -202,7 +202,7 @@ function Roadmap() {
 					<ul className={classes.phaseDesc}>{phase1}</ul>
 				</div>
 				<div className={classes.desktopRoadMapSecondSection}>
-					<div className={classes.desktopRoadMapCircle}></div>
+					<div className={classes.desktopRoadMapCircleFill}></div>
 					<div className={classes.phaseTitle}>
 						<Typography
 							className={`${classes.phaseTitleTypo} swiper-no-swiping`}
@@ -295,7 +295,7 @@ function Roadmap() {
 					<SwiperSlide>
 						<div className={classes.mobileRoadMapStripe}>
 							<div
-								className={classes.mobileRoadMapStripeFill}
+								className={classes.mobileRoadMapStripeFillFull}
 							></div>
 						</div>
 						<div className={classes.mobileRoadMapCircleFill}></div>
@@ -321,8 +321,12 @@ function Roadmap() {
 						<ul className={classes.phaseDesc}>{phase1}</ul>
 					</SwiperSlide>
 					<SwiperSlide>
-						<div className={classes.mobileRoadMapStripe}></div>
-						<div className={classes.mobileRoadMapCircle}></div>
+						<div className={classes.mobileRoadMapStripe}>
+							<div
+								className={classes.mobileRoadMapStripeFill}
+							></div>
+						</div>
+						<div className={classes.mobileRoadMapCircleFill}></div>
 						<div className={classes.phaseTitle}>
 							<Typography
 								className={`${classes.phaseTitleTypo} swiper-no-swiping`}

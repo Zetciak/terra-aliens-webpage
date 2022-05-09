@@ -140,7 +140,7 @@ const useStyles = makeStyles({
 	},
 
 	desktopRoadMapStripeFill: {
-		width: '254px',
+		width: '454px',
 		height: '8px',
 		background: '#ae82fc',
 	},
