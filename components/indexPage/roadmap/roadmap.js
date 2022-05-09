@@ -82,7 +82,7 @@ function Roadmap() {
 	phases[1][3] = 'Introduction of the holders benefits';
 	phases[1][4] = 'Holders ranks';
 	phases[1][5] = 'Whale tracker';
-	phases[1][6] = 'Traits floor';
+	phases[1][6] = 'Floor rarity finder';
 	phases[1][7] = 'Treasury for the future development';
 	phases[1][8] = 'DAO Announcement';
 	phases[1][9] = 'NFT staking';
